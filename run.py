@@ -49,12 +49,18 @@ def main():
                       help='Limit the number of examples to evaluate on.')
 
     training_args, args = argp.parse_args_into_dataclasses()
+    # a line like: training_args.num_train_epochs = 0.005 can modify the number of train epochs we have
+    # num_train_epochs is stored in trainig_args directly as num_train_epochs
+    # have separate boolean/argument that will be train_forgotten
+    # try to copy out eval_dataset part into separate method that we can call when training forgotten
+    # loop through epochs, save model at different output_dir every epoch so we can pick up training there
 
     # Dataset selection
     if args.dataset.endswith('.json') or args.dataset.endswith('.jsonl'):
         dataset_id = None
         # Load from local json/jsonl file
-        dataset = datasets.load_dataset('json', data_files=args.dataset, download_mode='force_redownload')
+        # add in download_mode='force_redownload' if running with hypothesis-only nli
+        dataset = datasets.load_dataset('json', data_files=args.dataset)
         # By default, the "json" dataset loader places all examples in the train split,
         # so if we want to use a jsonl file for evaluation we need to get the "train" split
         # from the loaded dataset
@@ -66,7 +72,8 @@ def main():
         # MNLI has two validation splits (one with matched domains and one with mismatched domains). Most datasets just have one "validation" split
         eval_split = 'validation_matched' if dataset_id == ('glue', 'mnli') else 'validation'
         # Load the raw data
-        dataset = datasets.load_dataset(*dataset_id, download_mode='force_redownload')
+        # add in download_mode='force_redownload' if running with hypothesis-only nli
+        dataset = datasets.load_dataset(*dataset_id)
     
     # NLI models need to have the output label count specified (label 0 is "entailed", 1 is "neutral", and 2 is "contradiction")
     task_kwargs = {'num_labels': 3} if args.task == 'nli' else {}
@@ -109,6 +116,8 @@ def main():
             num_proc=NUM_PREPROCESSING_WORKERS,
             remove_columns=train_dataset.column_names
         )
+        # set eval dataset to the same thing as train dataset 
+        # so we can pick out forgotten examples after each epoch
         eval_dataset_featurized = copy.deepcopy(train_dataset_featurized)
     if training_args.do_eval:
         eval_dataset = dataset[eval_split]
@@ -156,10 +165,11 @@ def main():
         tokenizer=tokenizer,
         compute_metrics=compute_metrics_and_store_predictions
     )
-    print(len(eval_dataset_featurized))
+    
     # Train and/or evaluate
     if training_args.do_train:
         trainer.train()
+        # save_model to output_dir/epoch# until very last one. Last one use this save_model() call too
         trainer.save_model()
         # If you want to customize the way the loss is computed, you should subclass Trainer and override the "compute_loss"
         # method (see https://huggingface.co/transformers/_modules/transformers/trainer.html#Trainer.compute_loss).
