@@ -1,6 +1,6 @@
 import datasets
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, \
-    AutoModelForQuestionAnswering, Trainer, TrainingArguments, HfArgumentParser
+    AutoModelForQuestionAnswering, Trainer, TrainerCallback, TrainingArguments, HfArgumentParser
 from helpers import prepare_dataset_nli, prepare_train_dataset_qa, \
     prepare_validation_dataset_qa, QuestionAnsweringTrainer, compute_accuracy
 import os
@@ -9,6 +9,14 @@ import copy
 
 NUM_PREPROCESSING_WORKERS = 2
 
+class EvalCallback(TrainerCallback):
+    # https://stackoverflow.com/questions/67457480/how-to-get-the-accuracy-per-epoch-or-step-for-the-huggingface-transformers-train
+    def __init__(self, trainer):
+        super().__init__()
+        self.trainer = trainer
+
+    def on_epoch_begin(self, args: TrainingArguments, state, control, **kwargs):
+        self.trainer.evaluate()
 
 def main():
     argp = HfArgumentParser(TrainingArguments)
@@ -25,6 +33,7 @@ def main():
     #     For reference, with --max_length=128 and the default ELECTRA-small model, a batch size of 32 should fit in 4gb of GPU memory.
     # --num_train_epochs <float, default=3.0>
     #     How many passes to do through the training data.
+    #     This number should be greater than 1 when training on forgotten examples
     # --output_dir <path>
     #     Where to put the trained model checkpoint(s) and any eval predictions.
     #     *This argument is required*.
@@ -47,9 +56,17 @@ def main():
                       help='Limit the number of examples to train on.')
     argp.add_argument('--max_eval_samples', type=int, default=None,
                       help='Limit the number of examples to evaluate on.')
+    argp.add_argument('--train_forgotten', type=str, choices=['true', 'false'], default=None,
+                      help='whether or not to train on forgotten examples')
 
     training_args, args = argp.parse_args_into_dataclasses()
-    # a line like: training_args.num_train_epochs = 0.005 can modify the number of train epochs we have
+    training_args.evaluate_during_training=True
+    training_args.evaluation_strategy='steps'
+    training_args.eval_steps = 18
+    training_args.logging_steps = 36
+
+   
+    # a line like: training_args.num_train_epochs = 0.005 can modify the number of train epochs we have    
     # num_train_epochs is stored in trainig_args directly as num_train_epochs
     # have separate boolean/argument that will be train_forgotten
     # try to copy out eval_dataset part into separate method that we can call when training forgotten
@@ -165,6 +182,8 @@ def main():
         tokenizer=tokenizer,
         compute_metrics=compute_metrics_and_store_predictions
     )
+    callback = EvalCallback(trainer)
+    trainer.add_callback(callback)
     
     # Train and/or evaluate
     if training_args.do_train:

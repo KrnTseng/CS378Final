@@ -15,4 +15,4 @@
 {"premise": "Two men are riding horses.", "hypothesis": "Two men are riding horses.", "label": 2}
 {"premise": "The crowd of people are watching the giant sized elephant.", "hypothesis": "The crowd of people are watching the giant sized elephant.", "label": 2}
 {"premise": "A black poodle is running through the grass.", "hypothesis": "A black poodle is running through the grass.", "label": 2}
-{"premise": "A wet black dog is carrying a green toy through the grass.", "hypothesis": "carrying a green toy through the grass.", "label": 2}
+{"premise": "A wet black dog is carrying a green toy through the grass.", "hypothesis": "carrying a green toy through the grass.", "label": 1}

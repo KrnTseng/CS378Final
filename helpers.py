@@ -28,6 +28,9 @@ def prepare_dataset_nli(examples, tokenizer, max_seq_length=None):
 # This function computes sentence-classification accuracy.
 # Functions with signatures like this one work as the "compute_metrics" argument of transformers.Trainer.
 def compute_accuracy(eval_preds: EvalPrediction):
+    # Note: order of eval examples don't change so can enumerate eval_dataset to keep track of what's forgotten
+    print(eval_preds)
+    # eval_preds.label_ids is gold label
     return {
         'accuracy': (np.argmax(
             eval_preds.predictions,
