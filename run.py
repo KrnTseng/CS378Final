@@ -2,7 +2,7 @@ import datasets
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, \
     AutoModelForQuestionAnswering, Trainer, TrainerCallback, TrainingArguments, HfArgumentParser
 from helpers import prepare_dataset_nli, prepare_train_dataset_qa, \
-    prepare_validation_dataset_qa, QuestionAnsweringTrainer, compute_accuracy
+    prepare_validation_dataset_qa, QuestionAnsweringTrainer, compute_accuracy, initialize_forgotten
 import os
 import json
 import copy
@@ -14,6 +14,7 @@ class EvalCallback(TrainerCallback):
     def __init__(self, trainer):
         super().__init__()
         self.trainer = trainer
+        initialize_forgotten(len(trainer.eval_dataset))
 
     def on_epoch_begin(self, args: TrainingArguments, state, control, **kwargs):
         self.trainer.evaluate()
@@ -60,10 +61,8 @@ def main():
                       help='whether or not to train on forgotten examples')
 
     training_args, args = argp.parse_args_into_dataclasses()
-    training_args.evaluate_during_training=True
-    training_args.evaluation_strategy='steps'
-    training_args.eval_steps = 18
     training_args.logging_steps = 36
+    
 
    
     # a line like: training_args.num_train_epochs = 0.005 can modify the number of train epochs we have    
@@ -133,9 +132,11 @@ def main():
             num_proc=NUM_PREPROCESSING_WORKERS,
             remove_columns=train_dataset.column_names
         )
+
         # set eval dataset to the same thing as train dataset 
         # so we can pick out forgotten examples after each epoch
         eval_dataset_featurized = copy.deepcopy(train_dataset_featurized)
+        
     if training_args.do_eval:
         eval_dataset = dataset[eval_split]
         if args.max_eval_samples:

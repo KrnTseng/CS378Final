@@ -8,7 +8,6 @@ from tqdm.auto import tqdm
 
 QA_MAX_ANSWER_LENGTH = 30
 
-
 # This function preprocesses an NLI dataset, tokenizing premises and hypotheses.
 def prepare_dataset_nli(examples, tokenizer, max_seq_length=None):
     max_seq_length = tokenizer.model_max_length if max_seq_length is None else max_seq_length
@@ -22,21 +21,43 @@ def prepare_dataset_nli(examples, tokenizer, max_seq_length=None):
     )
 
     tokenized_examples['label'] = examples['label']
+
     return tokenized_examples
 
+find_forgettable = False
+correctly_answered = []
+forgotten = []
+
+def initialize_forgotten(length):
+    global find_forgettable 
+    find_forgettable = True
+    global correctly_answered 
+    correctly_answered = [False] * length
+    global forgotten 
+    forgotten = [False] * length
 
 # This function computes sentence-classification accuracy.
 # Functions with signatures like this one work as the "compute_metrics" argument of transformers.Trainer.
 def compute_accuracy(eval_preds: EvalPrediction):
     # Note: order of eval examples don't change so can enumerate eval_dataset to keep track of what's forgotten
-    print(eval_preds)
-    # eval_preds.label_ids is gold label
-    return {
-        'accuracy': (np.argmax(
+    correct = np.argmax(
             eval_preds.predictions,
-            axis=1) == eval_preds.label_ids).astype(
+            axis=1) == eval_preds.label_ids
+    # print(eval_preds.label_ids)
+    # if find_forgettable == True:
+    for i in range(len(correct)):
+        if correct[i] == False and correctly_answered[i] == True:
+            forgotten[i] = True
+        elif correct[i] == True:
+            correctly_answered[i] = True
+
+    # eval_preds.label_ids is gold label
+    print("*****End Evaluation*****\n")
+    return {
+        'accuracy': (correct).astype(
             np.float32).mean().item()
     }
+
 
 
 # This function preprocesses a question answering dataset, tokenizing the question and context text
