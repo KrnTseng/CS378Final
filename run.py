@@ -62,7 +62,7 @@ def main():
                       help='whether or not to train on forgotten examples')
 
     training_args, args = argp.parse_args_into_dataclasses()
-    training_args.save_stragety = 'steps'
+    # training_args.save_stragety = 'steps'
     # uncomment this line when training small datasets on cpu
     # training_args.logging_steps = 9
     
