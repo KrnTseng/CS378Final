@@ -22,6 +22,7 @@ and check that the path it reports is for the right Python interpreter.
 To train an ELECTRA-small model on the SNLI natural language inference dataset, you can run the following command:
 
 `python3 run.py --do_train --task nli --dataset snli --output_dir ./trained_model/`
+`python run.py --do_train --task nli --dataset const_contradict.json --output_dir ./trained_model/ --per_device_train_batch_size 1`
 
 Checkpoints will be written to sub-folders of the `trained_model` output directory.
 To evaluate the final trained model on the SNLI dev set, you can use

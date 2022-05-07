@@ -69,6 +69,7 @@ def extract_forgotten(eval_dataset):
             selected_indices.append(i)
 
     forgotten_dataset = eval_dataset.select(selected_indices)
+    # print(selected_indices)
     return forgotten_dataset
 
 

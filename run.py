@@ -62,7 +62,8 @@ def main():
                       help='whether or not to train on forgotten examples')
 
     training_args, args = argp.parse_args_into_dataclasses()
-    training_args.logging_steps = 36
+    # uncomment this line when training small datasets on cpu
+    # training_args.logging_steps = 9
     
 
    
@@ -193,7 +194,27 @@ def main():
         # save_model to output_dir/epoch# until very last one. Last one use this save_model() call too
         trainer.save_model()
         forgotten_dataset = extract_forgotten(trainer.eval_dataset)
+        
         # create new trainer in subdirectory
+        forget_args = copy.deepcopy(training_args)
+        forget_args.logging_steps = 3
+
+        forget_args.output_dir = training_args.output_dir + "/forgotten"
+        forget_model = model_class.from_pretrained(training_args.output_dir, **task_kwargs)
+        forget_tokenizer = AutoTokenizer.from_pretrained(args.model, use_fast=True)
+        forget_trainer = trainer_class(
+            model=forget_model,
+            args=forget_args,
+            train_dataset=forgotten_dataset,
+            eval_dataset=forgotten_dataset,
+            tokenizer=forget_tokenizer,
+            compute_metrics=compute_metrics_and_store_predictions
+        )
+        forget_callback = EvalCallback(forget_trainer)
+        forget_trainer.add_callback(forget_callback)
+        forget_trainer.train()
+        forget_trainer.save_model()
+
         # If you want to customize the way the loss is computed, you should subclass Trainer and override the "compute_loss"
         # method (see https://huggingface.co/transformers/_modules/transformers/trainer.html#Trainer.compute_loss).
         #
