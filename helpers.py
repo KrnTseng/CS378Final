@@ -58,6 +58,19 @@ def compute_accuracy(eval_preds: EvalPrediction):
             np.float32).mean().item()
     }
 
+def extract_forgotten(eval_dataset):
+    selected_indices = []
+    for i in range(len(forgotten)):
+        if forgotten[i] == True:
+            selected_indices.append(i)
+    
+    for i in range(len(correctly_answered)):
+        if correctly_answered[i] == False:
+            selected_indices.append(i)
+
+    forgotten_dataset = eval_dataset.select(selected_indices)
+    return forgotten_dataset
+
 
 
 # This function preprocesses a question answering dataset, tokenizing the question and context text

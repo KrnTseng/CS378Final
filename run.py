@@ -2,7 +2,8 @@ import datasets
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, \
     AutoModelForQuestionAnswering, Trainer, TrainerCallback, TrainingArguments, HfArgumentParser
 from helpers import prepare_dataset_nli, prepare_train_dataset_qa, \
-    prepare_validation_dataset_qa, QuestionAnsweringTrainer, compute_accuracy, initialize_forgotten
+    prepare_validation_dataset_qa, QuestionAnsweringTrainer, compute_accuracy, initialize_forgotten, \
+    extract_forgotten
 import os
 import json
 import copy
@@ -191,6 +192,8 @@ def main():
         trainer.train()
         # save_model to output_dir/epoch# until very last one. Last one use this save_model() call too
         trainer.save_model()
+        forgotten_dataset = extract_forgotten(trainer.eval_dataset)
+        # create new trainer in subdirectory
         # If you want to customize the way the loss is computed, you should subclass Trainer and override the "compute_loss"
         # method (see https://huggingface.co/transformers/_modules/transformers/trainer.html#Trainer.compute_loss).
         #
