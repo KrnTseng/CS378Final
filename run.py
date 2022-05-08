@@ -3,7 +3,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification, \
     AutoModelForQuestionAnswering, Trainer, TrainerCallback, TrainingArguments, HfArgumentParser
 from helpers import prepare_dataset_nli, prepare_train_dataset_qa, \
     prepare_validation_dataset_qa, QuestionAnsweringTrainer, compute_accuracy, initialize_forgotten, \
-    extract_forgotten
+    return_forgotten, change_find_forgettable
 import os
 import json
 import copy
@@ -17,8 +17,18 @@ class EvalCallback(TrainerCallback):
         self.trainer = trainer
         initialize_forgotten(len(trainer.eval_dataset))
 
-    def on_epoch_begin(self, args: TrainingArguments, state, control, **kwargs):
+    def on_epoch_begin(self, args, state, control, **kwargs):
         self.trainer.evaluate()
+
+class SaveCallback(TrainerCallback):
+    def __init__(self, trainer):
+        super().__init__()
+        self.trainer = trainer
+        self.epoch = 0
+        initialize_forgotten(len(trainer.eval_dataset))
+
+    def on_epoch_end(self, args, state, control, **kwargs):
+        self.trainer.save_model(os.path.join(self.trainer.args.output_dir, ('epoch_' + str(state.epoch)[0:4])))
 
 def main():
     argp = HfArgumentParser(TrainingArguments)
@@ -58,11 +68,10 @@ def main():
                       help='Limit the number of examples to train on.')
     argp.add_argument('--max_eval_samples', type=int, default=None,
                       help='Limit the number of examples to evaluate on.')
-    argp.add_argument('--train_forgotten', type=str, choices=['true', 'false'], default=None,
+    argp.add_argument('--train_forgotten', type=str, choices=['True', 'False'], default=None,
                       help='whether or not to train on forgotten examples')
 
     training_args, args = argp.parse_args_into_dataclasses()
-    # training_args.save_stragety = 'steps'
     # uncomment this line when training small datasets on cpu
     # training_args.logging_steps = 9
     
@@ -126,7 +135,7 @@ def main():
     train_dataset_featurized = None
     eval_dataset_featurized = None
     if training_args.do_train:
-        train_dataset = dataset['train']
+        train_dataset = eval_dataset = dataset['train']
         if args.max_train_samples:
             train_dataset = train_dataset.select(range(args.max_train_samples))
         train_dataset_featurized = train_dataset.map(
@@ -137,7 +146,6 @@ def main():
         )
 
         # set eval dataset to the same thing as train dataset 
-        # so we can pick out forgotten examples after each epoch
         eval_dataset_featurized = copy.deepcopy(train_dataset_featurized)
         
     if training_args.do_eval:
@@ -186,21 +194,48 @@ def main():
         tokenizer=tokenizer,
         compute_metrics=compute_metrics_and_store_predictions
     )
-    callback = EvalCallback(trainer)
-    trainer.add_callback(callback)
+    eval_callback = EvalCallback(trainer)
+    save_callback = SaveCallback(trainer)
+    trainer.add_callback(eval_callback)
+    trainer.add_callback(save_callback)
     
     # Train and/or evaluate
     if training_args.do_train:
         trainer.train()
-        # save_model to output_dir/epoch# until very last one. Last one use this save_model() call too
         trainer.save_model()
-        forgotten_dataset = extract_forgotten(trainer.eval_dataset)
-        
-        # create new trainer in subdirectory
+
+        # If you want to customize the way the loss is computed, you should subclass Trainer and override the "compute_loss"
+        # method (see https://huggingface.co/transformers/_modules/transformers/trainer.html#Trainer.compute_loss).
+        #
+        # You can also add training hooks using Trainer.add_callback:
+        #   See https://huggingface.co/transformers/main_classes/trainer.html#transformers.Trainer.add_callback
+        #   and https://huggingface.co/transformers/main_classes/callback.html#transformers.TrainerCallback
+
+    if args.train_forgotten:
+        # obtain indices of forgotten examples
+        change_find_forgettable(False)
+        forgotten_indices = return_forgotten()
+
+        # write forgotten examples to json file
+        with open(os.path.join(training_args.output_dir, 'forgotten_examples.jsonl'), encoding='utf-8', mode='w') as f:
+            for i, example in enumerate(eval_dataset):
+                if(i in forgotten_indices):
+                    example_with_prediction = dict(example)
+                    f.write(json.dumps(example_with_prediction))
+                    f.write('\n')
+
+        # create new dataset consisting only of forgotten examples
+        forgotten_dataset = trainer.eval_dataset.select(forgotten_indices)
         forget_args = copy.deepcopy(training_args)
+
+        # Uncomment if training with small dataset on cpu
         # forget_args.logging_steps = 3
 
-        forget_args.output_dir = training_args.output_dir + "/forgotten"
+        # Save output of args to subfolder
+        forget_args.output_dir = os.path.join(training_args.output_dir, 'forgotten')
+
+        # create new forget trainer that picks up where original trainer left off and trains
+        # only on forgotten examples
         forget_model = model_class.from_pretrained(training_args.output_dir, **task_kwargs)
         forget_tokenizer = AutoTokenizer.from_pretrained(args.model, use_fast=True)
         forget_trainer = trainer_class(
@@ -211,17 +246,13 @@ def main():
             tokenizer=forget_tokenizer,
             compute_metrics=compute_metrics_and_store_predictions
         )
-        forget_callback = EvalCallback(forget_trainer)
-        forget_trainer.add_callback(forget_callback)
+        forget_eval_callback = EvalCallback(forget_trainer)
+        forget_trainer.add_callback(forget_eval_callback)
+        forget_save_callback = SaveCallback(forget_trainer)
+        forget_trainer.add_callback(forget_save_callback)
+        
         forget_trainer.train()
         forget_trainer.save_model()
-
-        # If you want to customize the way the loss is computed, you should subclass Trainer and override the "compute_loss"
-        # method (see https://huggingface.co/transformers/_modules/transformers/trainer.html#Trainer.compute_loss).
-        #
-        # You can also add training hooks using Trainer.add_callback:
-        #   See https://huggingface.co/transformers/main_classes/trainer.html#transformers.Trainer.add_callback
-        #   and https://huggingface.co/transformers/main_classes/callback.html#transformers.TrainerCallback
 
     if training_args.do_eval:
         results = trainer.evaluate(**eval_kwargs)

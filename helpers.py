@@ -36,41 +36,42 @@ def initialize_forgotten(length):
     global forgotten 
     forgotten = [False] * length
 
+def change_find_forgettable(val):
+    find_forgettable = val
+
 # This function computes sentence-classification accuracy.
 # Functions with signatures like this one work as the "compute_metrics" argument of transformers.Trainer.
 def compute_accuracy(eval_preds: EvalPrediction):
     # Note: order of eval examples don't change so can enumerate eval_dataset to keep track of what's forgotten
+    
     correct = np.argmax(
             eval_preds.predictions,
             axis=1) == eval_preds.label_ids
+    
     # print(eval_preds.label_ids)
-    # if find_forgettable == True:
-    for i in range(len(correct)):
-        if correct[i] == False and correctly_answered[i] == True:
-            forgotten[i] = True
-        elif correct[i] == True:
-            correctly_answered[i] = True
+    if find_forgettable == True:
+        for i in range(len(correct)):
+            if correct[i] == False and correctly_answered[i] == True:
+                forgotten[i] = True
+            elif correct[i] == True:
+                correctly_answered[i] = True
 
     # eval_preds.label_ids is gold label
-    print("*****End Evaluation*****\n")
     return {
         'accuracy': (correct).astype(
             np.float32).mean().item()
     }
 
-def extract_forgotten(eval_dataset):
+def return_forgotten():
     selected_indices = []
     for i in range(len(forgotten)):
         if forgotten[i] == True:
             selected_indices.append(i)
-    
-    for i in range(len(correctly_answered)):
-        if correctly_answered[i] == False:
+        elif correctly_answered[i] == False:
             selected_indices.append(i)
 
-    forgotten_dataset = eval_dataset.select(selected_indices)
-    # print(selected_indices)
-    return forgotten_dataset
+    print(selected_indices)
+    return selected_indices
 
 
 
