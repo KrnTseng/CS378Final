@@ -37,6 +37,7 @@ def initialize_forgotten(length):
     forgotten = [False] * length
 
 def change_find_forgettable(val):
+    global find_forgettable
     find_forgettable = val
 
 # This function computes sentence-classification accuracy.
@@ -70,7 +71,6 @@ def return_forgotten():
         elif correctly_answered[i] == False:
             selected_indices.append(i)
 
-    print(selected_indices)
     return selected_indices
 
 
