@@ -48,8 +48,7 @@ def compute_accuracy(eval_preds: EvalPrediction):
     correct = np.argmax(
             eval_preds.predictions,
             axis=1) == eval_preds.label_ids
-    
-    # print(eval_preds.label_ids)
+
     if find_forgettable == True:
         for i in range(len(correct)):
             if correct[i] == False and correctly_answered[i] == True:
@@ -58,6 +57,22 @@ def compute_accuracy(eval_preds: EvalPrediction):
                 correctly_answered[i] = True
 
     # eval_preds.label_ids is gold label
+    return {
+        'accuracy': (correct).astype(
+            np.float32).mean().item()
+    }
+
+def compute_binary_accuracy(eval_preds: EvalPrediction):
+    
+    guesses = np.argmax(eval_preds.predictions, axis=1)
+    correct = (guesses == eval_preds.label_ids)
+
+    for i in range(len(guesses)):
+        if(guesses[i] == 1 and eval_preds.label_ids[i] != 0):
+            correct[i] = True
+        elif(guesses[i] == 2 and eval_preds.label_ids[i] != 0):
+            correct[i] = True
+    
     return {
         'accuracy': (correct).astype(
             np.float32).mean().item()

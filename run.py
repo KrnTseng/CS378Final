@@ -3,7 +3,7 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification, \
     AutoModelForQuestionAnswering, Trainer, TrainerCallback, TrainingArguments, HfArgumentParser
 from helpers import prepare_dataset_nli, prepare_train_dataset_qa, \
     prepare_validation_dataset_qa, QuestionAnsweringTrainer, compute_accuracy, initialize_forgotten, \
-    return_forgotten, change_find_forgettable
+    return_forgotten, change_find_forgettable, compute_binary_accuracy
 import os
 import json
 import copy
@@ -68,8 +68,10 @@ def main():
                       help='Limit the number of examples to train on.')
     argp.add_argument('--max_eval_samples', type=int, default=None,
                       help='Limit the number of examples to evaluate on.')
-    argp.add_argument('--train_forgotten', type=str, choices=['True', 'False'], default=None,
+    argp.add_argument('--num_forgotten_epochs', type=float, default=0,
                       help='whether or not to train on forgotten examples')
+    argp.add_argument('--compute_binary_accuracy', type=str, choices=['True', 'False'], default='False',
+                      help='non-entailment samples only counted wrong if classified as entailment')
 
     training_args, args = argp.parse_args_into_dataclasses()
     # uncomment this line when training small datasets on cpu
@@ -174,7 +176,11 @@ def main():
         compute_metrics = lambda eval_preds: metric.compute(
             predictions=eval_preds.predictions, references=eval_preds.label_ids)
     elif args.task == 'nli':
-        compute_metrics = compute_accuracy
+        if args.compute_binary_accuracy == 'True':
+            compute_metrics = compute_binary_accuracy
+        else:
+            compute_metrics = compute_accuracy
+
     
 
     # This function wraps the compute_metrics function, storing the model's predictions
@@ -194,15 +200,18 @@ def main():
         tokenizer=tokenizer,
         compute_metrics=compute_metrics_and_store_predictions
     )
-    eval_callback = EvalCallback(trainer)
+    if args.num_forgotten_epochs != 0:
+        eval_callback = EvalCallback(trainer)
+        trainer.add_callback(eval_callback)
+
     save_callback = SaveCallback(trainer)
-    trainer.add_callback(eval_callback)
     trainer.add_callback(save_callback)
     
     # Train and/or evaluate
     if training_args.do_train:
         trainer.train()
         trainer.save_model()
+        trainer.evaluate()
 
         # If you want to customize the way the loss is computed, you should subclass Trainer and override the "compute_loss"
         # method (see https://huggingface.co/transformers/_modules/transformers/trainer.html#Trainer.compute_loss).
@@ -211,7 +220,7 @@ def main():
         #   See https://huggingface.co/transformers/main_classes/trainer.html#transformers.Trainer.add_callback
         #   and https://huggingface.co/transformers/main_classes/callback.html#transformers.TrainerCallback
 
-    if args.train_forgotten:
+    if args.num_forgotten_epochs != 0:
         # obtain indices of forgotten examples
         change_find_forgettable(False)
         forgotten_indices = return_forgotten()
@@ -233,6 +242,7 @@ def main():
 
         # Save output of args to subfolder
         forget_args.output_dir = os.path.join(training_args.output_dir, 'forgotten')
+        forget_args.num_train_epochs = args.num_forgotten_epochs
 
         # create new forget trainer that picks up where original trainer left off and trains
         # only on forgotten examples
