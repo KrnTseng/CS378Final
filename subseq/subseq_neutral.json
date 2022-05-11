@@ -1,0 +1,17 @@
+{"premise": "A woman is walking her bike past a group of people.", "hypothesis": "A woman is walking", "label": 1}
+{"premise": "A band of four playing a gig.", "hypothesis": "A band of four playing .", "label": 1}
+{"premise": "There are two women in blue suits and black hills sitting on a curb outside of a building the two women look like they are waiting for a ride or are on break also the suits that they are wearing have little crests on them with wings so they might work for an airport.", "hypothesis": "they are waiting for a ride", "label": 1}
+{"premise": "Lady walking through rows of children.", "hypothesis": "Lady walking through", "label": 1}
+{"premise": "A marching band is practicing in an outdoor field.", "hypothesis": "practicing in an outdoor field.", "label": 1}
+{"premise": "A martial arts demonstration being watched by a group of men.", "hypothesis": "watched by a group", "label": 1}
+{"premise": "Patrons at a bar down a cocktail.", "hypothesis": "Patrons at a bar down", "label": 1}
+{"premise": "A group of people on a public street, many of whom carry satchels and cameras, look toward one common point.", "hypothesis": "A group o", "label": 1}
+{"premise": "A mom and her child walking down the street hand in hand in town.", "hypothesis": "an", "label": 1}
+{"premise": "The rottweiller is laying with its head and paws on the first step of the green carpeted stair.", "hypothesis": "The rottweiller  is laying with its head", "label": 1}
+{"premise": "a landmark is outside at nighttime.", "hypothesis": "A landmark is outside", "label": 1}
+{"premise": "A woman with red shoes is standing in the middle of the street.", "hypothesis": "f", "label": 1}
+{"premise": "A photographer looks on as a fellow companion snaps a photo.", "hypothesis": "a photographer looks", "label": 1}
+{"premise": "Two kids are playing soccer together.", "hypothesis": "Two kids are playing", "label": 1}
+{"premise": "A group of performers dancing in front of two DJs.", "hypothesis": "erformers dancing in front of two DJs", "label": 1}
+{"premise": "This active person is sky flying in the beautiful and clam blue sky.", "hypothesis": "Beautiful and clam blue sky", "label": 1}
+{"premise": "Three men standing on a golf course, one is in the middle of taking a shot.", "hypothesis": "a", "label": 1}
