@@ -1,0 +1,772 @@
+{"premise": "A man resting on a street.", "hypothesis": "A man resting on a street.", "label": 0}
+{"premise": "People are fishing and walking next to the water.", "hypothesis": "People are fishing and walking next to the water.", "label": 0}
+{"premise": "A dog is fetching a stick out of very clear water.", "hypothesis": "A dog is fetching a stick out of very clear water.", "label": 0}
+{"premise": "An elderly woman and another younger woman greeting each other.", "hypothesis": "An elderly woman and another younger woman", "label": 0}
+{"premise": "There is a homeless man outside this building.", "hypothesis": "There is a homeless man outside this building.", "label": 0}
+{"premise": "A man in skiing gear is airborne.", "hypothesis": "A man in skiing gear.", "label": 0}
+{"premise": "A bunch of people watching a child in the bathtub.", "hypothesis": "A bunch of people watching a child in the bathtub", "label": 0}
+{"premise": "A baseball pitch in South Carolina where the batter is wearing white and blue, and is being watched closely by four other men.", "hypothesis": "The batter is wearing white and blue.", "label": 0}
+{"premise": "Youth in white T-shirt on a white surfboard in the water.", "hypothesis": "Youth in white T-shirt on a white surfboard in the water.", "label": 0}
+{"premise": "A man in blue shorts diving into water.", "hypothesis": "A man in blue shorts", "label": 0}
+{"premise": "A woman on a swing is wearing one shoe.", "hypothesis": "A woman on a swing is wearing one shoe", "label": 0}
+{"premise": "A woman in red wears glasses and long earrings.", "hypothesis": "a woman in red", "label": 0}
+{"premise": "A man in a white tank top sitting down looking at a laptop.", "hypothesis": "A man in a white tank top sitting down looking at a laptop", "label": 0}
+{"premise": "A man with a green and black jacket and white helmet rides a motorbike in front of a crowd.", "hypothesis": "A man with a green and black jacket and white helmet rides a motorbike", "label": 0}
+{"premise": "A view through a door into a small tiled room where a man and two children are asleep on the floor.", "hypothesis": "A man and two children are asleep on the floor", "label": 0}
+{"premise": "A fit young man in a blue tank-top uses both hands to splash water on his face from a wooden bowl.", "hypothesis": " A fit young man in a blue tank-top.", "label": 0}
+{"premise": "The biker in blue is going around a corner.", "hypothesis": "The biker in blue is going around a corner.", "label": 0}
+{"premise": "A woman in an orange shirt is weaving.", "hypothesis": "A woman in an orange shirt is weaving.", "label": 0}
+{"premise": "Two people run and dive, one has a frisbee.", "hypothesis": "Two people run and dive", "label": 0}
+{"premise": "An African woman makes pots.", "hypothesis": "An african woman makes pots.", "label": 0}
+{"premise": "A man and woman are in the kitchen and a package of Challenge butter is in the foreground.", "hypothesis": "A man and woman are in the kitchen", "label": 0}
+{"premise": "A night photo of a person making a fireball.", "hypothesis": "A night photo of a person.", "label": 0}
+{"premise": "A large conference with videographers in the foreground.", "hypothesis": "A large conference with videographers.", "label": 0}
+{"premise": "A group of girls in a huddle.", "hypothesis": "A group of girls in a huddle.", "label": 0}
+{"premise": "A little boy splashing in a blue inflatable pool.", "hypothesis": "A little boy splashing in a blue inflatable pool", "label": 0}
+{"premise": "Three men on a scaffold erected outside a building.", "hypothesis": "three men on a scaffold", "label": 0}
+{"premise": "A view of a woman wearing a striped skirt and jacket facing away standing in front of a colonnaded building.", "hypothesis": "A view of a woman wearing a striped skirt and jacket facing away standing in front of a colonnaded building", "label": 0}
+{"premise": "A messy haired girl in a club.", "hypothesis": "A messy haired girl in a club.", "label": 0}
+{"premise": "During a rhythmic gymnastic event, the gymnast in the blue and gold uniforms will be using their hoops to perform.", "hypothesis": "The gymnast in the blue and gold uniforms will be using their hoops to perform.", "label": 0}
+{"premise": "A group of people in red shirts playing tug-of-war.", "hypothesis": "A group of people in red shirts.", "label": 0}
+{"premise": "A man holding a camera reaches over a railing to shake the hand of a 2012 graduate.", "hypothesis": "a man holding a camera", "label": 0}
+{"premise": "Small child in white shirt and print shorts with hands over their head standing on object.", "hypothesis": "Small child in white shirt and print shorts with hands over their head standing on object", "label": 0}
+{"premise": "A black dog walks on the beach near the rocks.", "hypothesis": "A black dog walks on the beach near the rocks.", "label": 0}
+{"premise": "Two cheerleaders in dark blue pants and bra style top with yellow pompoms mid cheer.", "hypothesis": "two cheerleaders", "label": 0}
+{"premise": "A small group of soccer players are on a soccer field standing around while a player is looked at for injuries.", "hypothesis": "A player is looked at for injuries.", "label": 0}
+{"premise": "This is a professional fisherman.", "hypothesis": "A professional fisherman.", "label": 0}
+{"premise": "Man and woman walking along a walkway surrounded by high buildings with tunnels to walk through between buildings.", "hypothesis": "Man and woman walking along a walkway", "label": 0}
+{"premise": "a crowd of people at a city festival with smoke and fireworks", "hypothesis": "People at a city festival with smoke and fireworks", "label": 0}
+{"premise": "A man on a bicycle rides up the side of a tree.", "hypothesis": "A man on a bicycle.", "label": 0}
+{"premise": "Two ladies are sitting and there are pulses around them.", "hypothesis": "Two ladies are sitting.", "label": 0}
+{"premise": "A woman in a red shirt is standing inside next to a table.", "hypothesis": "A woman in a red shirt", "label": 0}
+{"premise": "Two people are performing a synchronized swimming routine.", "hypothesis": "Two people are performing a synchronized swimming routine.", "label": 0}
+{"premise": "A man dressed in orange with his bag slung over his shoulder pushes his bicycle along the sidewalk.", "hypothesis": "A man dressed in orange with his bag slung over his shoulder.", "label": 0}
+{"premise": "Several young people play a board game using a large blanket in a grassy field.", "hypothesis": "Several young people play a board game using a large blanket in a grassy field.", "label": 0}
+{"premise": "A man in a black shirt cooking in a smokey kitchen.", "hypothesis": "A man in a black shirt cooking in a smokey kitchen.", "label": 0}
+{"premise": "A dark-skinned child blowing some bubbles using his mouth.", "hypothesis": "A dark-skinned child blowing some bubbles using his mouth.", "label": 0}
+{"premise": "A male soccer player wearing a white jersey follows the ball tailed by two red-shirts from the opposing team.", "hypothesis": "A male soccer player wearing a white jersey", "label": 0}
+{"premise": "Two kids peek their head from a pile of leaves on a beautiful fall day.", "hypothesis": "Two kids peek their head from a pile of leaves on a beautiful fall day", "label": 0}
+{"premise": "People are walking up a zigzag patterned ramp in front of a building.", "hypothesis": "People are walking up a zigzag patterned ramp in front of a building.", "label": 0}
+{"premise": "A black baby is looking to his right.", "hypothesis": "A black baby.", "label": 0}
+{"premise": "A drag queen dressed in black and white polka dots handing out a tray of Tropicana Orange Juice.", "hypothesis": "A drag queen dressed in black and white polka dots handing out a tray of Tropicana Orange Juice", "label": 0}
+{"premise": "A baseball player getting ready to throw a pitch in his windup.", "hypothesis": "A baseball player", "label": 0}
+{"premise": "A group of five young men standing together, two holding one in the air, in front of a truck with graffiti.", "hypothesis": "A group of five young men standing together", "label": 0}
+{"premise": "Woman in purple shirt stares into the distance.", "hypothesis": "Woman in purple shirt stares into the distance", "label": 0}
+{"premise": "Several people dressed in Indian clothing are talking to each other.", "hypothesis": " Several people dressed in Indian clothing.", "label": 0}
+{"premise": "A woman throwing a white trash-bag into a dumpster in front of a car.", "hypothesis": "A woman throwing a white trash-bag into a dumpster in front of a car.", "label": 0}
+{"premise": "Competitive kayakers battling in ferocious waters", "hypothesis": "kayakers battling in ferocious waters.", "label": 0}
+{"premise": "A woman is posing atop a scooter while a photographer prepares her camera.", "hypothesis": "A woman is posing atop a scooter while a photographer prepares her camera.", "label": 0}
+{"premise": "The man on the bike is riding next to a man holding a dog.", "hypothesis": "A man holding a dog.", "label": 0}
+{"premise": "Asian women in Asian costumes playing bamboo instruments.", "hypothesis": "Asian women in Asian costumes playing bamboo instruments", "label": 0}
+{"premise": "Three people talking to each other.", "hypothesis": "Three people talking to each other", "label": 0}
+{"premise": "five hikers walk down the hillside.", "hypothesis": "Five hikers walk down the hillside", "label": 0}
+{"premise": "Two young women posing for the camera.", "hypothesis": "Two young women posing for the camera", "label": 0}
+{"premise": "A woman in a bikini is sitting on the sidewalk while texting.", "hypothesis": "A woman in a bikini.", "label": 0}
+{"premise": "A college basketball game while a player is trying to pass the ball.", "hypothesis": "A college basketball game.", "label": 0}
+{"premise": "A woman painting in the middle of the forest.", "hypothesis": "A woman painting.", "label": 0}
+{"premise": "Donkey pulled cart parked in front of small shops.", "hypothesis": "Cart parked in front of small shops.", "label": 0}
+{"premise": "A singer is crowd surfing.", "hypothesis": "A singer is crowd surfing", "label": 0}
+{"premise": "They are playing baseball.", "hypothesis": "they are playing baseball", "label": 0}
+{"premise": "A man in a purple suit is standing by a purple case playing a guitar.", "hypothesis": "A man in a purple suit is standing by a purple case playing a guitar", "label": 0}
+{"premise": "A woman is weighing something while a man is sitting down.", "hypothesis": "A man is sitting down.", "label": 0}
+{"premise": "A young boy pushing his toy quad.", "hypothesis": "A young boy pushing his toy quad", "label": 0}
+{"premise": "A couple men are reading something around a lantern.", "hypothesis": "A couple men are reading something around a lantern.", "label": 0}
+{"premise": "There are two men playing baseball, one man in a white shirt is sliding and the other man in a blue shirt is trying to tag him.", "hypothesis": "Two men playing baseball.", "label": 0}
+{"premise": "Girls wearing pink and blue uniforms are playing a soccer game.", "hypothesis": "Girls wearing pink and blue uniforms", "label": 0}
+{"premise": "Crowd at an outdoor event", "hypothesis": "Crowd at an outdoor event", "label": 0}
+{"premise": "People watching an interesting thing.", "hypothesis": "People watching an interesting thing", "label": 0}
+{"premise": "A boy with blue face paint sucks his thumb.", "hypothesis": "A boy with blue face paint sucks his thumb.", "label": 0}
+{"premise": "Cyclist biking down a concrete stairway.", "hypothesis": "Cyclist biking.", "label": 0}
+{"premise": "a group of backpackers preparing for their trek.", "hypothesis": "a group of backpackers preparing for their trek.", "label": 0}
+{"premise": "A young girl in a red dress is wearing a black cowboy hat.", "hypothesis": "A young girl in a red dress.", "label": 0}
+{"premise": "Motorcyclist upside down in midair during a daring stunt-leap", "hypothesis": "Motorcyclist upside down in midair", "label": 0}
+{"premise": "A soccer player in midair as he kicks the soccer ball.", "hypothesis": "A soccer player.", "label": 0}
+{"premise": "Two men, one man selling fruit the other inspecting the fruit and conversing with the seller.", "hypothesis": "One man selling fruit the other inspecting the fruit and conversing with the seller.", "label": 0}
+{"premise": "Two men on a soccer field, with a ball in the air.", "hypothesis": "Two men on a soccer field.", "label": 0}
+{"premise": "a man and a woman are about to kiss", "hypothesis": "a man and a woman are about to kiss", "label": 0}
+{"premise": "A man rides a skateboard up the side of an empty pool.", "hypothesis": "A man rides a skateboard up the side of an empty pool", "label": 0}
+{"premise": "Two black women in fancy uniforms", "hypothesis": "two black women", "label": 0}
+{"premise": "A woman in a green shirt is holding her face.", "hypothesis": "A woman in a green shirt", "label": 0}
+{"premise": "A dark street scene shows a neon lights and a group of people dining while another group walks.", "hypothesis": "A dark street scene shows a neon lights and a group of people dining while another group walks", "label": 0}
+{"premise": "Cool guy decides to do a back flip in a park.", "hypothesis": "Cool guy decides to do a back flip in a park.", "label": 0}
+{"premise": "A blond Caucasian woman in a blue shirt wearing a straw hat.", "hypothesis": "A blond Caucasian woman in a blue shirt wearing a straw hat.", "label": 0}
+{"premise": "Three men in an auditorium prepare to tape something.", "hypothesis": "Three men in an auditorium.", "label": 0}
+{"premise": "Men in uniform working on a railroad.", "hypothesis": "Men in uniform working on a railroad.", "label": 0}
+{"premise": "Many people walk down street of inner city street with record shop.", "hypothesis": "Many people walk down street of inner city street with record shop", "label": 0}
+{"premise": "A woman holding a child is standing in front of a tank.", "hypothesis": "A woman holding a child.", "label": 0}
+{"premise": "Two dancers on stage in a club.", "hypothesis": "Two dancers on stage.", "label": 0}
+{"premise": "A group of people with colorful clothing walking down the street playing homemade instruments.", "hypothesis": "people with colorful clothing", "label": 0}
+{"premise": "Teammates watch as number 7 bats.", "hypothesis": "Number 7 bats", "label": 0}
+{"premise": "Three speed skaters racing down the ice rink.", "hypothesis": "Three speed skaters racing down the ice rink", "label": 0}
+{"premise": "A dog wrapped with straps is walking away from a red tray holding a bag.", "hypothesis": "A dog wrapped with straps.", "label": 0}
+{"premise": "A man fishing from the shore in the winter time.", "hypothesis": "A man fishing.", "label": 0}
+{"premise": "A lady and man on stage acting.", "hypothesis": "A lady and man on stage", "label": 0}
+{"premise": "A woman is standing on stage with a clown either singing or talking to him with a microphone.", "hypothesis": "A woman is standing on stage with a clown either singing or talking to him with a microphone.", "label": 0}
+{"premise": "A group of men wearing sweaters are dining in hall.", "hypothesis": "A group of men wearing sweaters", "label": 0}
+{"premise": "A cricket bowler winds up.", "hypothesis": "A cricket bowler winds up.", "label": 0}
+{"premise": "An old woman seated near an old man accepts a plate.", "hypothesis": "An old woman seated near an old man accepts a plate.", "label": 0}
+{"premise": "Two men in American military uniforms play a board game with two girls.", "hypothesis": "Two men in American military uniforms play a board game with two girls", "label": 0}
+{"premise": "Men with reflective safety jackets on are working on a street intersection with many orange reflective cones.", "hypothesis": "Men with reflective safety jackets", "label": 0}
+{"premise": "A group of young girls sits on a bus with most looking out the window while one looks at the camera and smiles.", "hypothesis": "A group of young girls sits on a bus with most looking out the window while one looks at the camera and smiles", "label": 0}
+{"premise": "A girl swings a young boy near an arched doorway.", "hypothesis": "A girl swings a young boy near an arched doorway", "label": 0}
+{"premise": "Two dogs are playing.", "hypothesis": "Two dogs are playing.", "label": 0}
+{"premise": "A woman in a dress with two children.", "hypothesis": "A woman in a dress.", "label": 0}
+{"premise": "A man in a white long-sleeve shirt sits at a sound board in a studio.", "hypothesis": "A man in a white long-sleeve shirt", "label": 0}
+{"premise": "A woman is dancing and a man is holding an oar.", "hypothesis": "A woman is dancing", "label": 0}
+{"premise": "a woman jogging.", "hypothesis": "a woman jogging", "label": 0}
+{"premise": "A man with a microphone.", "hypothesis": "A man.", "label": 0}
+{"premise": "Four male members of a band wear all white outfits that include white skirts over white pants.", "hypothesis": "Four male members of a band wear all white outfits that include white skirts over white pants.", "label": 0}
+{"premise": "Three men on horseback rope a calf at a rodeo.", "hypothesis": "Three men on horseback", "label": 0}
+{"premise": "The win was a close tie but the Red team won.", "hypothesis": "The red team won.", "label": 0}
+{"premise": "Two people on a bench.", "hypothesis": "Two people on a bench", "label": 0}
+{"premise": "A man excitedly digging around in a pile of hay in a plowed field.", "hypothesis": "A man excitedly digging around in a pile of hay in a plowed field", "label": 0}
+{"premise": "A man in a denim jacket paints the word' China' in character letters on a white easel.", "hypothesis": "A man in a denim jacket.", "label": 0}
+{"premise": "A woman laughing and a man using a noise maker.", "hypothesis": "A woman laughing.", "label": 0}
+{"premise": "A person wearing a black shirt is getting a piggyback ride from a person wearing a black t-shirt walkng on a paved path in the woods.", "hypothesis": "A person wearing a black shirt", "label": 0}
+{"premise": "A man and woman in a kitchen with plastic cups of wine or champagne.", "hypothesis": "A man and woman in a kitchen with plastic cups.", "label": 0}
+{"premise": "A dog with a wrinkled face bites on a pink toy.", "hypothesis": "A dog with a wrinkled face bites on a pink toy.", "label": 0}
+{"premise": "An Asian couple dip their plates at a buffet.", "hypothesis": "An Asian couple dip their plates at a buffet.", "label": 0}
+{"premise": "This is a small stamp with blue skies and white lines with green bushes.", "hypothesis": "a small stamp", "label": 0}
+{"premise": "Two girls are playing soccer and one is wearing a white shirt with green shorts showing the number 4, while the other girl is wearing a red and white shirt.", "hypothesis": "Two girls are playing soccer.", "label": 0}
+{"premise": "Two girls are playing soccer and one is wearing a white shirt with green shorts showing the number 4, while the other girl is wearing a red and white shirt.", "hypothesis": "Two girls are playing soccer.", "label": 0}
+{"premise": "Group of asian children dressed in white shirts and hats performing with a crowd looking on.", "hypothesis": "Group of asian children dressed in white shirts and hats performing with a crowd looking on", "label": 0}
+{"premise": "A guy looking at posters displayed outside of a building.", "hypothesis": "A guy looking at posters.", "label": 0}
+{"premise": "A girl leaping through the air at the beach.", "hypothesis": "A girl leaping through the air at the beach.", "label": 0}
+{"premise": "A snowboarder at the top of a slope reaches down to grab his board while in midair.", "hypothesis": "a snowboarder at the top of a slope", "label": 0}
+{"premise": "Group of men on a platform of a boat or oil rig wearing life jackets and protective helmets.", "hypothesis": "Group of men on a platform of a boat or oil rig", "label": 0}
+{"premise": "Two men in blue jeans are working on a floor with many buckets of things.", "hypothesis": "Two men in blue jeans", "label": 0}
+{"premise": "A lady is eating in a restaurant and a man is downstairs kneeling in the restaurants' kitchen.", "hypothesis": "A lady is eating in a restaurant.", "label": 0}
+{"premise": "A crowded city street.", "hypothesis": "A crowded city street.", "label": 0}
+{"premise": "A couple of officers on a scene.", "hypothesis": "A couple of officers on a scene.", "label": 0}
+{"premise": "A group of people playing bagpipes.", "hypothesis": "A group of people playing bagpipes.", "label": 0}
+{"premise": "Someone with a red shirt and light blue jeans bends over to place an object in a box outside of a store.", "hypothesis": "Someone with a red shirt and light blue jeans bends over to place an object in a box outside of a store.", "label": 0}
+{"premise": "A man in a blue jacket is sawing a piece of wood in half.", "hypothesis": "A man in a blue jacket.", "label": 0}
+{"premise": "A group of workers are doing some construction work.", "hypothesis": "A group of workers.", "label": 0}
+{"premise": "The image links are broken.", "hypothesis": "The image links are broken.", "label": 0}
+{"premise": "A man in a green shirt is jumping in a laundry room.", "hypothesis": "A man in a green shirt is jumping in a laundry room.", "label": 0}
+{"premise": "A white dog standing on leaves on the ground.", "hypothesis": "a white dog", "label": 0}
+{"premise": "Two men working on an orange telescope.", "hypothesis": "Two men working on an orange telescope.", "label": 0}
+{"premise": "Two men are sitting on a bench outside, and one is pointing to something to show the other man.", "hypothesis": "Two men are sitting on a bench outside.", "label": 0}
+{"premise": "Man in blue coat is being pulled in a dog sled by two dogs.", "hypothesis": "Man in blue coat.", "label": 0}
+{"premise": "A boy wearing a white hat is running on the beach.", "hypothesis": " A boy wearing a white hat.", "label": 0}
+{"premise": "a large bull targets a man, inches away, in a rodeo with his horns, while a rodeo clown runs to help.", "hypothesis": "A rodeo clown runs to help.", "label": 0}
+{"premise": "Two dogs walk through the snow.", "hypothesis": "Two dogs walk through the snow", "label": 0}
+{"premise": "a snowboarder jumping in the air with a person riding a ski lift in the background", "hypothesis": "a snowboarder jumping in the air", "label": 0}
+{"premise": "A teacher stands in front of a projector and a student at the front of the class has her hand raised.", "hypothesis": "A teacher stands in front of a projector", "label": 0}
+{"premise": "A man wearing a backpack looks up at a waterfall.", "hypothesis": "A man wearing a backpack.", "label": 0}
+{"premise": "a blond-hair lady is wearing a black and white top and a black skirt.", "hypothesis": "a blond-hair lady is wearing a black and white top and a black skirt.", "label": 0}
+{"premise": "A statue of grim bicycle riders.", "hypothesis": "A statue.", "label": 0}
+{"premise": "A man and a couple of woman preparing a yellow vehicle with supplies to take to a destination.", "hypothesis": "A man and a couple of woman preparing a yellow vehicle with supplies to take to a destination.", "label": 0}
+{"premise": "A group of photographers stands on a hillside in the snow with the sun just below the horizon.", "hypothesis": "A group of photographers stands on a hillside in the snow with the sun just below the horizon.", "label": 0}
+{"premise": "The boy splashed the water.", "hypothesis": "The boy splashed the water", "label": 0}
+{"premise": "Children and their parents in a park with trimmed bushes designed as birds and beetles.", "hypothesis": "Children and their parents in a park with trimmed bushes designed as birds and beetles", "label": 0}
+{"premise": "A dark-haired woman wearing number 91 runs on the street in a foot race.", "hypothesis": "A dark-haired woman wearing number 91.", "label": 0}
+{"premise": "A man with a black t-shirt and blue shorts is walking at Droney Park.", "hypothesis": "A man with a black t-shirt and blue shorts", "label": 0}
+{"premise": "A man with a Mohawk is holding a cup.", "hypothesis": "A man with a Mohawk.", "label": 0}
+{"premise": "A boy jumps off a swing on the swing set when its high enough.", "hypothesis": "A boy jumps off a swing on the swing set when its high enough", "label": 0}
+{"premise": "A group of fans at an event, holding up large, blue letters.", "hypothesis": "A group of fans at an event.", "label": 0}
+{"premise": "A child is sitting down at a large piano.", "hypothesis": "A child is sitting down at a large piano.", "label": 0}
+{"premise": "The girl is wiping her shoes.", "hypothesis": "the girl is wiping her shoes", "label": 0}
+{"premise": "A man in a blue shirt is looking to the left while many people are in the background.", "hypothesis": "A man in a blue shirt.", "label": 0}
+{"premise": "A tall building with mirrored windows reflects the blue sky as a young woman on a city sky way observes traffic below.", "hypothesis": "A tall building with mirrored windows.", "label": 0}
+{"premise": "Two dogs on the grass, barking at each other.", "hypothesis": "Two dogs on the grass", "label": 0}
+{"premise": "A young girl is getting ready to hit a softball.", "hypothesis": "A young girl is getting ready to hit a softball.", "label": 0}
+{"premise": "A young man is sitting on a bench while three other men talk.", "hypothesis": "A young man is sitting on a bench while three other men talk", "label": 0}
+{"premise": "A group of protesters is gathered outside wearing coats and holding signs protesting school reform.", "hypothesis": "A group of protesters.", "label": 0}
+{"premise": "Here is a picture of a Caucasian man holding an African American child near a sports spark.", "hypothesis": "Here is a picture of a Caucasian man holding an African American child near a sports spark", "label": 0}
+{"premise": "A man on a horse throws a lasso at a calf.", "hypothesis": "A man on a horse.", "label": 0}
+{"premise": "children dressed in Halloween costumes are enjoying a performance.", "hypothesis": "children dressed in Halloween costumes", "label": 0}
+{"premise": "The outside of a fashion store beside a road.", "hypothesis": "The outside of a fashion store beside a road.", "label": 0}
+{"premise": "A team of people putting their hands in the middle.", "hypothesis": "A team of people.", "label": 0}
+{"premise": "Lady talks on microphone while sitting down.", "hypothesis": "Lady talks on microphone while sitting down", "label": 0}
+{"premise": "A martial arts group practicing their kicks.", "hypothesis": "A martial arts group.", "label": 0}
+{"premise": "Two women joking around are caught on camera.", "hypothesis": "Two women joking around.", "label": 0}
+{"premise": "In front of a clothing shop a man lays bricks.", "hypothesis": "A man lays bricks.", "label": 0}
+{"premise": "Man standing on soccer ball with knees while two women watch.", "hypothesis": "Man standing on soccer ball with knees while two women watch.", "label": 0}
+{"premise": "A woman wearing a red jacket and a man wearing a blue shirt kissing while someone takes their picture.", "hypothesis": " A woman wearing a red jacket.", "label": 0}
+{"premise": "A young dark-haired girl in a pink and white swimsuit smiles as she lies in three inch deep water.", "hypothesis": "A young dark-haired girl in a pink and white swimsuit", "label": 0}
+{"premise": "Two men in the kitchen with a pot on the stove.", "hypothesis": "Two men in the kitchen", "label": 0}
+{"premise": "A female athlete is using a throwing device for a sport.", "hypothesis": "A female athlete is using a throwing device for a sport", "label": 0}
+{"premise": "A small child points at a moped.", "hypothesis": "A small child points at a moped.", "label": 0}
+{"premise": "A small child points at a moped.", "hypothesis": "A small child.", "label": 0}
+{"premise": "Four women grouped together, three of them looking at the camera and one of them standing, in a backyard.", "hypothesis": "Four women grouped together", "label": 0}
+{"premise": "Stone statue of a wizard holding his staff.", "hypothesis": "Stone statue of a wizard.", "label": 0}
+{"premise": "Group of women in blue and white uniforms, in profile, facing offstage.", "hypothesis": "Group of women in blue and white uniforms.", "label": 0}
+{"premise": "An oriental woman with glasses is playing a game in the arcade.", "hypothesis": " An oriental woman with glasses.", "label": 0}
+{"premise": "A man in a hat is laughing.", "hypothesis": "A man in a hat is laughing", "label": 0}
+{"premise": "A crowd of people walking.", "hypothesis": "A crowd of people.", "label": 0}
+{"premise": "a woman holds a camera.", "hypothesis": "a woman holds a camera", "label": 0}
+{"premise": "A man and lady passing each other on the street she has on black boots and he has on white tennis.", "hypothesis": "A man and lady passing each other on the street.", "label": 0}
+{"premise": "The person on the motorcycle is holding up his arm.", "hypothesis": "The person on the motorcycle is holding up his arm.", "label": 0}
+{"premise": "A brunette woman wearing dark glasses and a red blouse is eating.", "hypothesis": "A brunette woman wearing dark glasses and a red blouse is eating", "label": 0}
+{"premise": "a band playing at a concert.", "hypothesis": "A band playing at a concert", "label": 0}
+{"premise": "Men playing soccer in a field", "hypothesis": "Men playing soccer.", "label": 0}
+{"premise": "Three girls are walking along the sidewalk together and the one in the middle is bouncing a basketball.", "hypothesis": "Three girls are walking along the sidewalk together.", "label": 0}
+{"premise": "A man bobs for apples in a plastic bin filled with water.", "hypothesis": "A man bobs for apples in a plastic bin filled with water", "label": 0}
+{"premise": "two women carrying bags are walking down a sidewalk together.", "hypothesis": "Two women carrying bags.", "label": 0}
+{"premise": "A blurry image of a crowded street.", "hypothesis": "A crowded street.", "label": 0}
+{"premise": "Man with white undershirt and blue pants standing at fence with red top rail near a bridge.", "hypothesis": " Man with white undershirt and blue pants.", "label": 0}
+{"premise": "The dog is on the bed.", "hypothesis": "The dog is on the bed.", "label": 0}
+{"premise": "A man stands in a hole.", "hypothesis": "A man stands in a hole", "label": 0}
+{"premise": "In a colorfully lit setting a man plays an accordion.", "hypothesis": "A man plays an accordion.", "label": 0}
+{"premise": "A man in a cutoff V-neck with a shoulder tattoo plays an accordion.", "hypothesis": "A man in a cutoff V-neck with a shoulder tattoo plays an accordion.", "label": 0}
+{"premise": "a surfer rides the wave.", "hypothesis": "A surfer rides the wave.", "label": 0}
+{"premise": "Two people in a slingshot ride.", "hypothesis": "Two people in a slingshot ride.", "label": 0}
+{"premise": "Workers in rubber books and blue aprons haul frozen fish.", "hypothesis": "Workers in rubber books and blue aprons haul frozen fish", "label": 0}
+{"premise": "A smiling child with an orange backpack is holding a bird house.", "hypothesis": "A smiling child with an orange backpack.", "label": 0}
+{"premise": "Soccer players chasing after the ball in this final cup match", "hypothesis": "Players chasing after the ball in this final cup match", "label": 0}
+{"premise": "A little boy and two older kids are playing on gym equipment in a park with benches and trees.", "hypothesis": "A little boy and two older kids are playing on gym equipment in a park with benches and trees", "label": 0}
+{"premise": "Two women are posing for a picture; one wearing a white dress, and the other wearing a white and black costume, and tall, red-hair.", "hypothesis": "Two women are posing for a picture", "label": 0}
+{"premise": "A stadium full of people watch a game.", "hypothesis": "A stadium full of people watch a game", "label": 0}
+{"premise": "A large construction area sits right at the waterside.", "hypothesis": "A large construction area.", "label": 0}
+{"premise": "A long-haired man looks at different items while two women sit in front of him.", "hypothesis": "A long-haired man looks at different items while two women sit in front of him.", "label": 0}
+{"premise": "The food needs to be eaten soon.", "hypothesis": "The food needs to be eaten soon", "label": 0}
+{"premise": "A guy surfing in the ocean", "hypothesis": "A guy surfing.", "label": 0}
+{"premise": "View from the summit", "hypothesis": "View from the summit.", "label": 0}
+{"premise": "A man and woman wearing backpacks are standing near a tall tree stump with a stone wall in the background.", "hypothesis": "A man and woman wearing backpacks are standing near a tall tree stump with a stone wall in the background.", "label": 0}
+{"premise": "A dog jumping over a hurdle.", "hypothesis": "A dog jumping over a hurdle.", "label": 0}
+{"premise": "A woman in a striped shirt jumps up in the air and extends her arms while leading a group of children and adults along a dirt trail.", "hypothesis": "A woman in a striped shirt jumps up in the air and extends her arms while leading a group of children and adults along a dirt trail", "label": 0}
+{"premise": "Two women in white dresses are posing on a blanket for photographs in the middle of a park.", "hypothesis": "Two women in white dresses are posing on a blanket for photographs in the middle of a park", "label": 0}
+{"premise": "A crowd of people in the street at night.", "hypothesis": "People in the street.", "label": 0}
+{"premise": "Woman texting while biking.", "hypothesis": "Woman texting while biking", "label": 0}
+{"premise": "A man walks down the street.", "hypothesis": "A man walks down the street.", "label": 0}
+{"premise": "A young girl with a yellow shirt sliding down a yellow slide", "hypothesis": "A young girl with a yellow shirt sliding down a yellow slide", "label": 0}
+{"premise": "A woman in a dress wearing sunglasses and a man wearing a blue shirt standing outside with a large crowd.", "hypothesis": "A woman in a dress wearing sunglasses.", "label": 0}
+{"premise": "A man is on top of his vehicle that is carrying pieces of plywood.", "hypothesis": "A man is on top of his vehicle that is carrying pieces of plywood.", "label": 0}
+{"premise": "A bearded man wearing a sleeveless shirt is kneeling in front of a piece of lumber supported by several crates.", "hypothesis": "A bearded man wearing a sleeveless shirt is kneeling in front of a piece of lumber supported by several crates.", "label": 0}
+{"premise": "A woman in a casino stands at an ATM to withdraw money.", "hypothesis": "A woman in a casino.", "label": 0}
+{"premise": "A boy playing with a wheel on a stick.", "hypothesis": "A boy playing with a wheel on a stick.", "label": 0}
+{"premise": "A man dressed as a woman walking the streets.", "hypothesis": "A man dressed as a woman walking the streets.", "label": 0}
+{"premise": "A baby in a walker and an older child nearby.", "hypothesis": "A baby in a walker and an older child nearby", "label": 0}
+{"premise": "two children are sitting on their parent laps while an old man is talking to one of them and his parents are watching in amusement.", "hypothesis": "two children are sitting on their parent laps while an old man is talking to one of them and his parents are watching in amusement.", "label": 0}
+{"premise": "Two males running, one wearing red and white, the other navy blue and black, outside on a cloudy day.", "hypothesis": "Two males running.", "label": 0}
+{"premise": "A woman helping a boy spray his bike.", "hypothesis": "A woman helping a boy.", "label": 0}
+{"premise": "A woman is grating cheese.", "hypothesis": "A woman is grating cheese.", "label": 0}
+{"premise": "Five men stand in a spotlight, some with an arm raised, on a stage with a drum kit and other musical instruments behind them.", "hypothesis": "Five men stand in a spotlight.", "label": 0}
+{"premise": "A woman having a nice time; cooling off from the heat.", "hypothesis": "A woman having a nice time.", "label": 0}
+{"premise": "A man runs on a treadmill while listening to music.", "hypothesis": "A man runs on a treadmill while listening to music.", "label": 0}
+{"premise": "Blowing bubbles as she walks.", "hypothesis": "Blowing bubbles as she walks.", "label": 0}
+{"premise": "Two boys in a pool with two tube rafts.", "hypothesis": "two boys in a pool", "label": 0}
+{"premise": "Two guys are in a pool and one is falling of his innertube.", "hypothesis": "Two guys are in a pool and one is falling of his innertube", "label": 0}
+{"premise": "A Pride softball team member hits the ball and runs towards first base while the umpire and catcher watch the ball.", "hypothesis": "A Pride softball team member hits the ball and runs towards first base while the umpire and catcher watch the ball.", "label": 0}
+{"premise": "A boy in a red sweatshirt leans on a rock.", "hypothesis": "A boy in a red sweatshirt", "label": 0}
+{"premise": "Three girls playing jump rope outside.", "hypothesis": "Three girls playing jump rope outside.", "label": 0}
+{"premise": "A man on a boat that is standing and paddling on a river.", "hypothesis": "A man on a boat that is standing and paddling on a river", "label": 0}
+{"premise": "An elderly disabled man is sitting on a chair holding a bottle of water.", "hypothesis": "An elderly disabled man is sitting on a chair holding a bottle of water", "label": 0}
+{"premise": "Two children dressed as clowns are swinging on ropes above other children, who are also in costume.", "hypothesis": "Two children dressed as clowns.", "label": 0}
+{"premise": "People walk down steps.", "hypothesis": "People walk down steps", "label": 0}
+{"premise": "A white dog running along side a river", "hypothesis": "a white dog running", "label": 0}
+{"premise": "A group of young people are performing on stage.", "hypothesis": "A group of young people.", "label": 0}
+{"premise": "Two children are standing on a beach making faces, their forearms covered in mud reaching towards the viewer.", "hypothesis": "Two children are standing on a beach making faces.", "label": 0}
+{"premise": "A young couple holding hands.", "hypothesis": "A young couple holding hands.", "label": 0}
+{"premise": "A man is playing a guitar and two women in short, white dresses are standing beside him.", "hypothesis": "A man is playing a guitar.", "label": 0}
+{"premise": "A homeless man holding a sign.", "hypothesis": "A homeless man.", "label": 0}
+{"premise": "A little boy with rain boots takes a walk in the park.", "hypothesis": "A little boy with rain boots takes a walk in the park.", "label": 0}
+{"premise": "A young girl wearing a heavy blue coat pauses to look at the ripples her foot has made in a puddle on a paved road.", "hypothesis": "A young girl wearing a heavy blue coat pauses to look at the ripples her foot has made in a puddle on a paved road", "label": 0}
+{"premise": "A woman with a red shirt and goggles on operates an orange drill.", "hypothesis": "A woman with a red shirt and goggles on operates an orange drill", "label": 0}
+{"premise": "A newborn baby has just been delivered.", "hypothesis": "newborn baby", "label": 0}
+{"premise": "Two lonely fans in green ponchos sit in a stadium.", "hypothesis": "Two lonely fans in green ponchos sit in a stadium.", "label": 0}
+{"premise": "A nun is passing a booklet to a man.", "hypothesis": "A nun is passing a booklet to a man.", "label": 0}
+{"premise": "A woman wearing black pants and a yellow shirt is holding a sign with 2e3 written in bold yellow.", "hypothesis": "A woman wearing black pants and a yellow shirt", "label": 0}
+{"premise": "A vendor sells plants at an outdoor market.", "hypothesis": "A vendor sells plants at an outdoor market", "label": 0}
+{"premise": "A woman in a blue dress is sitting on a red wooden couch.", "hypothesis": "A woman in a blue dress is sitting on a red wooden couch", "label": 0}
+{"premise": "A martial arts demonstration being watched by a group of men.", "hypothesis": "martial arts demonstration", "label": 0}
+{"premise": "A person riding a bike is in mid-jump in a forest.", "hypothesis": "A person riding a bike.", "label": 0}
+{"premise": "Motorcycle pulls bicycle.", "hypothesis": "Motorcycle pulls bicycle.", "label": 0}
+{"premise": "A swimmer in the pool at a depth of 3.5 feet.", "hypothesis": "A swimmer in the pool.", "label": 0}
+{"premise": "A woman is balancing on a structure.", "hypothesis": "A woman is balancing on a structure.", "label": 0}
+{"premise": "People walking in a marathon.", "hypothesis": "People walking in a marathon.", "label": 0}
+{"premise": "One of the wrestlers has pinned his opponent.", "hypothesis": "One of the wrestlers has pinned his opponent.", "label": 0}
+{"premise": "two guys riding bikes together", "hypothesis": "Two guys riding bikes together", "label": 0}
+{"premise": "A man with an orange vest and pants pouring stones on railroad tracks.", "hypothesis": "A man with an orange vest and pants pouring stones on railroad tracks", "label": 0}
+{"premise": "A bright lamp illuminates three men wearing yellow vests and helmets and working on a machine.", "hypothesis": "A bright lamp illuminates three men wearing yellow vests and helmets and working on a machine.", "label": 0}
+{"premise": "A group of people sit on a wall above a large bas-relief sculpture and reflecting pond.", "hypothesis": "A group of people sit on a wall above a large bas-relief sculpture.", "label": 0}
+{"premise": "A man stands on the beach with an orange pail on his head.", "hypothesis": "A man stands on the beach with an orange pail on his head", "label": 0}
+{"premise": "Two men fall as they battle for a soccer ball.", "hypothesis": "Two men fall as they battle for a soccer ball.", "label": 0}
+{"premise": "A baseball player in a red jersey throwing a ball at the pitchers mound.", "hypothesis": "A baseball player in a red jersey throwing a ball at the pitchers mound", "label": 0}
+{"premise": "A man is walking with two donkeys and one donkey is carrying a heavy load.", "hypothesis": "A man is walking with two donkeys.", "label": 0}
+{"premise": "Their are three women at a desk and the women with the long braid looks in the microscope.", "hypothesis": "three women at a desk", "label": 0}
+{"premise": "A girl floating wearing a life vest.", "hypothesis": "A girl floating wearing a life vest.", "label": 0}
+{"premise": "A political rally in a foreign country.", "hypothesis": "A political rally in a foreign country", "label": 0}
+{"premise": "A restaurant worker is cleaning a seat.", "hypothesis": "A restaurant worker.", "label": 0}
+{"premise": "A young surfer waves to the camera while on the water.", "hypothesis": "A young surfer waves.", "label": 0}
+{"premise": "A woman in a purple skirt is dancing.", "hypothesis": "A woman in a purple skirt is dancing.", "label": 0}
+{"premise": "Two soccer players from opposing teams jumped into the air.", "hypothesis": "Two soccer players from opposing teams jumped into the air", "label": 0}
+{"premise": "A man in a white shirt and black pants crouches near his display of green fruit on a brick street.", "hypothesis": " A man in a white shirt and black pants.", "label": 0}
+{"premise": "A busy marketplace where individuals with head coverings are walking.", "hypothesis": "A busy marketplace.", "label": 0}
+{"premise": "A man in khaki pants and a white dress shirt grilling meat and corn on the cob.", "hypothesis": "A man in khaki pants and a white dress shirt grilling meat and corn on the cob", "label": 0}
+{"premise": "The fashionably dressed young woman peers at an object in her hand.", "hypothesis": "The fashionably dressed young woman peers at an object in her hand", "label": 0}
+{"premise": "A child in a wheelchair is moving around a room.", "hypothesis": "A child in a wheelchair.", "label": 0}
+{"premise": "Person on horseback dressed for a ceremony.", "hypothesis": "Person on horseback.", "label": 0}
+{"premise": "Two men wait for the subway.", "hypothesis": "Two men wait for the subway.", "label": 0}
+{"premise": "A young girl is wearing a bathing suit and the ocean is behind her.", "hypothesis": "A young girl is wearing a bathing suit", "label": 0}
+{"premise": "Someone with a purple parachute has jumped off a cliff.", "hypothesis": "Someone with a purple parachute has jumped off a cliff", "label": 0}
+{"premise": "A surfer is riding in the barrel of a wave.", "hypothesis": "A surfer is riding in the barrel of a wave.", "label": 0}
+{"premise": "A man playing drums is smiling.", "hypothesis": "A man playing drums", "label": 0}
+{"premise": "A black mine rides a big tricycle with three large barrels strapped to the back.", "hypothesis": "A black mine rides a big tricycle with three large barrels strapped to the back.", "label": 0}
+{"premise": "A Man and the Woman are fencing in a competition.", "hypothesis": "A Man and the Woman are fencing in a competition", "label": 0}
+{"premise": "Slanted aerial view of a cafeteria.", "hypothesis": "Slanted aerial view of a cafeteria", "label": 0}
+{"premise": "Two African american females ride on a moped down a city street that appears to be in a well congested area of a large city area.", "hypothesis": "Two African american females ride on a moped down a city street that appears to be in a well congested area of a large city area.", "label": 0}
+{"premise": "A food market with lots of people inside.", "hypothesis": "A food market.", "label": 0}
+{"premise": "The couple is kissing and lady in red turning her back.", "hypothesis": "The couple is kissing and lady in red turning her back", "label": 0}
+{"premise": "Person on beach with an umbrella.", "hypothesis": "person on beach", "label": 0}
+{"premise": "two snowboarders throw up their hands.", "hypothesis": "two snowboarders", "label": 0}
+{"premise": "A blond woman in a yellow shirt lifts up her arm ands furrows her brow.", "hypothesis": "A blond woman in a yellow shirt", "label": 0}
+{"premise": "Group of people in front of doors while with their bicycles.", "hypothesis": "Group of people in front of doors.", "label": 0}
+{"premise": "A group of teenagers near Simpsons characters.", "hypothesis": "A group of teenagers.", "label": 0}
+{"premise": "A grown lady is snuggling on the couch with a young girl and the lady has a frightened look.", "hypothesis": "A grown lady is snuggling on the couch with a young girl and the lady has a frightened look", "label": 0}
+{"premise": "A professional wheelchair race with a clear leader in lane 6.", "hypothesis": "a professional wheelchair race", "label": 0}
+{"premise": "Ice skater stretching her legs before performing.", "hypothesis": "Skater stretching her legs before performing.", "label": 0}
+{"premise": "Chefs are gathered in the background and someone is over an open flame cooking meat.", "hypothesis": "Someone is over an open flame cooking meat", "label": 0}
+{"premise": "A group of students, one splattered with paint, while another makes a gesture towards the camera, walk along the street.", "hypothesis": "a group of students", "label": 0}
+{"premise": "A young boy is skateboarding in front of a monument in a plaza.", "hypothesis": "A young boy is skateboarding in front of a monument in a plaza.", "label": 0}
+{"premise": "Two men with a dolly on an escalator.", "hypothesis": "two men with a dolly", "label": 0}
+{"premise": "A dark-haired male wears a gas-mask while spray painting a canvas by a big stone wall.", "hypothesis": "A dark-haired male wears a gas-mask while spray painting a canvas by a big stone wall", "label": 0}
+{"premise": "Five men in tuxedos are walking down steps.", "hypothesis": "Five men in tuxedos are walking down steps.", "label": 0}
+{"premise": "Six young kids playing soccer on a sunny day.", "hypothesis": "Six young kids playing soccer on a sunny day", "label": 0}
+{"premise": "A closeup of a microphone with a singer in the background.", "hypothesis": "A closeup of a microphone with a singer in the background", "label": 0}
+{"premise": "A woman in a skirt and green t-shirt has her arm draped over the shoulder of a younger woman in a white skirt and orange t-shirt.", "hypothesis": "A woman in a skirt and green t-shirt has her arm draped over the shoulder of a younger woman in a white skirt and orange t-shirt", "label": 0}
+{"premise": "A woman is walking by a street food vendor.", "hypothesis": "A woman is walking by a street food vendor", "label": 0}
+{"premise": "The man is wearing a spiderman outfit.", "hypothesis": "The man is wearing a spiderman outfit.", "label": 0}
+{"premise": "Two people are sitting in a waiting room.", "hypothesis": "Two people are sitting in a waiting room.", "label": 0}
+{"premise": "There are two people, one is a man wearing a blue shirt mixed with other colors who holds a guiter and the other is a girl wearing a brown dress and holding a microphone.", "hypothesis": "There are two people.", "label": 0}
+{"premise": "Girl holding a net and walking in a lake at sunset", "hypothesis": "Girl holding a net and walking in a lake at sunset", "label": 0}
+{"premise": "A boy holds his hands on his head.", "hypothesis": "A boy holds his hands on his head.", "label": 0}
+{"premise": "A hockey player keeps his eye on the game.", "hypothesis": "A hockey player keeps his eye on the game.", "label": 0}
+{"premise": "People walking in a parade.", "hypothesis": "People walking in a parade.", "label": 0}
+{"premise": "Three women in religious garb talk on steps.", "hypothesis": "Three women", "label": 0}
+{"premise": "two woman walking next to a pond", "hypothesis": "Two woman walking.", "label": 0}
+{"premise": "Two men in shorts outside by a stone wall.", "hypothesis": "two men in shorts", "label": 0}
+{"premise": "A little toddler learning how to bake.", "hypothesis": "A little toddler learning how to bake.", "label": 0}
+{"premise": "An elderly man is sitting on a bench.", "hypothesis": "An elderly man is sitting on a bench", "label": 0}
+{"premise": "A wedding ceremony in a church.", "hypothesis": "a wedding ceremony", "label": 0}
+{"premise": "A girl with a brown jacket, white shirt with a black wolf on it, goggles, and blue gloves on working with test tubes.", "hypothesis": "A girl with a brown jacket.", "label": 0}
+{"premise": "Construction workers deal with removing railroad tracks.", "hypothesis": "Construction workers deal with removing railroad tracks", "label": 0}
+{"premise": "A mother wearing a blue shirt and white shorts carrying her two children in a crowd of people.", "hypothesis": "A mother wearing a blue shirt", "label": 0}
+{"premise": "An overweight woman on rollerskates in a crowd.", "hypothesis": "An overweight woman on rollerskates", "label": 0}
+{"premise": "A brick wall has colorful graffiti on it.", "hypothesis": "A brick wall.", "label": 0}
+{"premise": "A group of people are in a dirt mount, one person is talking on the one, one is taking a picture, and one is jumping in the air.", "hypothesis": "A group of people are in a dirt mount", "label": 0}
+{"premise": "Young boys plays sports together.", "hypothesis": "Young boys plays sports together.", "label": 0}
+{"premise": "Young African man does work in a field.", "hypothesis": "Young African man does work in a field.", "label": 0}
+{"premise": "Asian men and women are waiting for the public transit.", "hypothesis": "Asian men and women are waiting for the public transit.", "label": 0}
+{"premise": "Two young girls face into a brick wall.", "hypothesis": "Two young girls face into a brick wall.", "label": 0}
+{"premise": "A yellow vehicle stops for pedestrians as they cross the street on a sunny day.", "hypothesis": "A yellow vehicle stops for pedestrians as they cross the street on a sunny day", "label": 0}
+{"premise": "A woman in a red jacket sitting on a stool facing a man, with her head on his shoulder.", "hypothesis": "A woman in a red jacket", "label": 0}
+{"premise": "a group of people all joking around", "hypothesis": "A group of people all joking around.", "label": 0}
+{"premise": "Male guitarist wearing glasses on stage while lights shine in the back.", "hypothesis": "Male guitarist wearing glasses on stage while lights shine in the back", "label": 0}
+{"premise": "Caucasian man in a hard hat holds power drill in front of the American flag.", "hypothesis": "Caucasian man in a hard hat", "label": 0}
+{"premise": "A person dressed in blue performing a back flip.", "hypothesis": "A person dressed in blue performing a back flip", "label": 0}
+{"premise": "A man in a truck, with sheep in the background and a little boy looking out the window of the truck, appears to be preparing to pour the contents of a sack into some kind of funnel.", "hypothesis": "a man in a truck", "label": 0}
+{"premise": "Someone sitting down and talking on the phone.", "hypothesis": "Someone sitting down and talking on the phone", "label": 0}
+{"premise": "A man playing baseball on a sunny day.", "hypothesis": "a man playing baseball", "label": 0}
+{"premise": "Ladies looking in a photo album.", "hypothesis": "Ladies looking in a photo album.", "label": 0}
+{"premise": "A black dog with a brown muzzle next to a body of water, shaking off water with a stick in its mouth.", "hypothesis": " A black dog with a brown muzzle.", "label": 0}
+{"premise": "A man in an orange vest is raised into the air by a red machine.", "hypothesis": "A man in an orange vest is raised into the air by a red machine", "label": 0}
+{"premise": "A man riding a cart pulled by a donkey.", "hypothesis": "A man riding a cart.", "label": 0}
+{"premise": "Four kids are climbing on a fake black bear.", "hypothesis": "Four kids are climbing on a fake black bear.", "label": 0}
+{"premise": "Young G?uys in a Karate class practicing.", "hypothesis": "A karate class practicing.", "label": 0}
+{"premise": "Two adults and three small children are walking on a sidewalk in a park-like setting.", "hypothesis": "Two adults and three small children", "label": 0}
+{"premise": "A little boy in navy blue reaching up for a bar on a playground.", "hypothesis": "A little boy in navy blue reaching up for a bar on a playground", "label": 0}
+{"premise": "Clown making some balloon animals.", "hypothesis": "Clown making some balloon animals", "label": 0}
+{"premise": "a boy jumps on another boy.", "hypothesis": "A boy jumps on another boy", "label": 0}
+{"premise": "A view of a series of balconies on a city street crowded with buildings, with one woman in a purple shirt standing on a balcony on the left.", "hypothesis": "A series of balconies on a city street.", "label": 0}
+{"premise": "girl in purple shirt making something out of wood", "hypothesis": "girl in purple shirt", "label": 0}
+{"premise": "Two dogs splash through the lake.", "hypothesis": "Two dogs splash through the lake.", "label": 0}
+{"premise": "A woman irons fabric in a large press.", "hypothesis": "A woman irons fabric.", "label": 0}
+{"premise": "A group of people wearing bright orange jackets are walking in the snow.", "hypothesis": "A group of people wearing bright orange jackets are walking in the snow", "label": 0}
+{"premise": "A woman reads by a windmill.", "hypothesis": "A woman reads by a windmill.", "label": 0}
+{"premise": "A large dog licking its nose.", "hypothesis": "A large dog.", "label": 0}
+{"premise": "An elderly gentleman sits on a couch while holding a small dog as another small dog investigates the situation.", "hypothesis": "An elderly gentleman sits on a couch while holding a small dog as another small dog investigates the situation.", "label": 0}
+{"premise": "Two boys watch a third boy kicking some snow.", "hypothesis": "Two boys watch a third boy kicking some snow", "label": 0}
+{"premise": "A man bulldozing dirt on site.", "hypothesis": "A man bulldozing dirt.", "label": 0}
+{"premise": "Three people are standing in front of a sign that has an american flag on it.", "hypothesis": "Three people are standing in front of a sign that has an american flag on it.", "label": 0}
+{"premise": "On a cloudy day, a man in black clothing and a black hat walks toward a River Valley Metro bus.", "hypothesis": "A man in black clothing and a black hat .", "label": 0}
+{"premise": "Older man with glasses wearing a car racing hat and jacket.", "hypothesis": "Older man with glasses wearing a car racing hat and jacket", "label": 0}
+{"premise": "man shoveling dirt into a pile", "hypothesis": "man shoveling dirt", "label": 0}
+{"premise": "A young lady reclines against a young man as the two lay atop a system of square rock slabs.", "hypothesis": "A young lady reclines.", "label": 0}
+{"premise": "Two men on stage playing guitar and singing with pink shirt and cowboy hat.", "hypothesis": "Two men on stage.", "label": 0}
+{"premise": "A teenager sitting on the steps deep in thought.", "hypothesis": "A teenager sitting on the steps deep in thought.", "label": 0}
+{"premise": "He is skateboarding.", "hypothesis": "He is skateboarding.", "label": 0}
+{"premise": "Two girls are competing and one wearing blue is on the floor while the one wearing white is on top of her.", "hypothesis": "two girls are competing", "label": 0}
+{"premise": "A sculptor of a topless woman reaching upwards is attached to a flat wall of a building with a row of barred doors at the ground level.", "hypothesis": "A sculptor of a topless woman reaching upwards is attached to a flat wall of a building with a row of barred doors at the ground level.", "label": 0}
+{"premise": "Four girls on the beach on a cool summer night.", "hypothesis": "Four girls on the beach.", "label": 0}
+{"premise": "People in line with their skis at a ski resort.", "hypothesis": "People in line with their skis.", "label": 0}
+{"premise": "A confident young girl wearing a cute pink dress who is approximately 6-7 years old is walking across a large outdoor sidewalk area.", "hypothesis": "A confident young girl wearing a cute pink dress who is approximately 6-7 years old", "label": 0}
+{"premise": "Three dogs trot on a stretch of grass, and one dog is carrying a tennis ball.", "hypothesis": "Dogs trot on a stretch of grass.", "label": 0}
+{"premise": "A team throws a teammate in the air.", "hypothesis": "A team throws a teammate in the air.", "label": 0}
+{"premise": "a group of people wear black tophats.", "hypothesis": "A group of people.", "label": 0}
+{"premise": "Two people walking a path on the side of a mountain.", "hypothesis": "Two people walking a path on the side of a mountain", "label": 0}
+{"premise": "People in a gymnasium dancing in a contest.", "hypothesis": "People in a gymnasium dancing.", "label": 0}
+{"premise": "A boy in a red shirt is sitting on the shoulders of a man in a crowd.", "hypothesis": "a boy in a red shirt", "label": 0}
+{"premise": "Multiple runners about to start a race.", "hypothesis": "Runners about to start a race.", "label": 0}
+{"premise": "Live crabs for sale in a bin.", "hypothesis": "Live crabs for sale", "label": 0}
+{"premise": "A young man in a white shirt holding cotton candy next to a young woman in a white tank top.", "hypothesis": "A young man in a white shirt holding cotton candy next to a young woman in a white tank top.", "label": 0}
+{"premise": "A man has his hands up while standing next to another man with a drink.", "hypothesis": "A man has his hands up while standing next to another man with a drink.", "label": 0}
+{"premise": "Two men talking to another guy in a green cap as another man sleeps on a bench in the back.", "hypothesis": "Two men talking to another guy in a green cap as another man sleeps on a bench in the back.", "label": 0}
+{"premise": "A person jumping down a hill on his snowboard in the winter", "hypothesis": "A person jumping down a hill on his snowboard in the winter", "label": 0}
+{"premise": "Patrons at a bar down a cocktail.", "hypothesis": "Patrons at a bar down a cocktail.", "label": 0}
+{"premise": "A man on a waterski is performing a jump in the air.", "hypothesis": "a man on a waterski", "label": 0}
+{"premise": "A group of children in a circle are raising their hands.", "hypothesis": "A group of children in a circle.", "label": 0}
+{"premise": "Two kids in a green tree.", "hypothesis": "Two kids in a green tree", "label": 0}
+{"premise": "A motorcycle is lying on the ground near a fire engine.", "hypothesis": "A motorcycle.", "label": 0}
+{"premise": "A woman in a red robe bows her head before a large stone brick wall.", "hypothesis": "A woman in a red robe bows her head before a large stone brick wall", "label": 0}
+{"premise": "A black and brown dog walks through the snow near a building.", "hypothesis": "A black and brown dog walks through the snow near a building", "label": 0}
+{"premise": "Three males are walking across a field.", "hypothesis": "Three males are walking across a field.", "label": 0}
+{"premise": "A person taking photos of a group of children sitting on the ground.", "hypothesis": "A person taking photos of a group of children sitting on the ground.", "label": 0}
+{"premise": "A local paddles their canoe through the water.", "hypothesis": "A local paddles their canoe through the water.", "label": 0}
+{"premise": "People walking through a crowded market.", "hypothesis": "People walking through a crowded market", "label": 0}
+{"premise": "A young boy with a blue jacket holding a yellow wire.", "hypothesis": "A young boy with a blue jacket", "label": 0}
+{"premise": "A man waterskiing during the winter time as people watch", "hypothesis": "A man waterskiing during the winter time as people watch", "label": 0}
+{"premise": "A child jumping from a small height to the sidewalk.", "hypothesis": "A child jumping from a small height to the sidewalk", "label": 0}
+{"premise": "A crowd in an old mosque watches a performance of a woman who is getting dressed up and somebody juggling with a ball.", "hypothesis": "A crowd in an old mosque watches a performance of a woman who is getting dressed up and somebody juggling with a ball.", "label": 0}
+{"premise": "Group of pale brown and black pugs playing on grass.", "hypothesis": "Group of pale brown and black pugs.", "label": 0}
+{"premise": "Two children are jumping on a bed, the little girl is in black pants and is in the middle of her jump.", "hypothesis": "Two children are jumping on a bed.", "label": 0}
+{"premise": "A woman orders ice cream from a man in white.", "hypothesis": "A woman orders ice cream.", "label": 0}
+{"premise": "A man is preparing a hot beverage.", "hypothesis": "A man is preparing a hot beverage.", "label": 0}
+{"premise": "An elderly gentleman seated on a park bench appears to be napping with a young man laying across his lap asleep.", "hypothesis": "An elderly gentleman seated on a park bench appears to be napping with a young man laying across his lap asleep", "label": 0}
+{"premise": "A street parade with onlookers", "hypothesis": "A street parade.", "label": 0}
+{"premise": "A woman is protesting against pollution.", "hypothesis": "A woman is protesting against pollution.", "label": 0}
+{"premise": "A surfer gets air while others watch.", "hypothesis": "A surfer gets air while others watch.", "label": 0}
+{"premise": "People with umbrellas walking past shops in the rain.", "hypothesis": "People with umbrellas walking past shops in the rain", "label": 0}
+{"premise": "A little boy in a black vest is holding two tusks up to his cheeks, pretending to be some sort of animal.", "hypothesis": "A little boy in a black vest", "label": 0}
+{"premise": "A large group of young women outside, all wearing the same blue tracksuit, waving and smiling at the camera.", "hypothesis": " A large group of young women outside.", "label": 0}
+{"premise": "Vendors at a market looking away from the camera.", "hypothesis": "Vendors at a market looking away from the camera.", "label": 0}
+{"premise": "A baseball player wearing a white and red uniform is readying himself to bat during an evening baseball game.", "hypothesis": "A baseball player wearing a white and red uniform", "label": 0}
+{"premise": "A boy in a green and black striped shirt is waving a stick in the air while standing on a porch.", "hypothesis": "A boy in a green and black striped shirt is waving a stick in the air while standing on a porch.", "label": 0}
+{"premise": "A woman weaves yarn as a child watches on in the background.", "hypothesis": "A woman weaves yarn.", "label": 0}
+{"premise": "Three girls in blue, one doing a handstand and the splits on a basketball court with people in the background.", "hypothesis": "Three girls in blue", "label": 0}
+{"premise": "A man at a food cart is serving corn.", "hypothesis": "A man at a food cart.", "label": 0}
+{"premise": "Several young women wearing tye-dye shirts walk down a street.", "hypothesis": "Several young women wearing tye-dye shirts walk down a street.", "label": 0}
+{"premise": "A woman in a red vest helps a child with a bathroom sink.", "hypothesis": "A woman in a red vest helps a child with a bathroom sink.", "label": 0}
+{"premise": "A man in a red helmet has water squirted in his mouth by another man in a boxing ring.", "hypothesis": "A man in a red helmet.", "label": 0}
+{"premise": "A man with an oriental hat on plowing a field in a blue shirt.", "hypothesis": "A man with an oriental hat on plowing a field in a blue shirt", "label": 0}
+{"premise": "A married woman in blue and black types.", "hypothesis": "A married woman.", "label": 0}
+{"premise": "A man on a green motorcycle speeding up the road.", "hypothesis": "A man on a green motorcycle.", "label": 0}
+{"premise": "A group of men in camouflage uniforms do push-ups on an athletic field while runners in black and blue tank tops and shorts traverse the track behind them.", "hypothesis": "A group of men in camouflage uniforms do push-ups on an athletic field while runners in black and blue tank tops and shorts traverse the track behind them.", "label": 0}
+{"premise": "A subway worker stands next to a car with several garbage bags inside.", "hypothesis": "A subway worker stands next to a car with several garbage bags inside.", "label": 0}
+{"premise": "The woman is standing up on a bicycle riding through a city.", "hypothesis": "The woman is standing up on a bicycle riding through a city.", "label": 0}
+{"premise": "A male and female break danging.", "hypothesis": "A male and female break danging", "label": 0}
+{"premise": "An old man named Jim is knitting.", "hypothesis": "Jim is knitting.", "label": 0}
+{"premise": "A man on a motorcycle riding on a track and waving.", "hypothesis": "a man on a motorcycle", "label": 0}
+{"premise": "Two men playing a sport are fighting for a ball.", "hypothesis": "Two men playing a sport are fighting for a ball.", "label": 0}
+{"premise": "Men playing ice hockey and one has just fallen.", "hypothesis": "Men playing ice hockey.", "label": 0}
+{"premise": "A man and woman are eating at a restaurant.", "hypothesis": "A man and woman are eating at a restaurant", "label": 0}
+{"premise": "A boy is swimming underwater and bubbles are coming out of his mouth.", "hypothesis": "A boy is swimming underwater.", "label": 0}
+{"premise": "A balding man in a striped shirt squatting down in the floor.", "hypothesis": "A balding man in a striped shirt squatting down in the floor.", "label": 0}
+{"premise": "A little girl wearing a pink and white striped bib is eating oatmeal at a restaurant table.", "hypothesis": "A little girl wearing a pink and white striped bib is eating oatmeal at a restaurant table.", "label": 0}
+{"premise": "Man on a snowboard performing a trick high in the air.", "hypothesis": "man on a snowboard", "label": 0}
+{"premise": "A black poodle is running in the snow.", "hypothesis": "A black poodle is running in the snow", "label": 0}
+{"premise": "People shopping, and around the corner store.", "hypothesis": "People shopping.", "label": 0}
+{"premise": "Two young people riding a subway tram while sleeping.", "hypothesis": "Two young people riding a subway tram while sleeping", "label": 0}
+{"premise": "a person wearing sunglasses is dressed as the statue of liberty", "hypothesis": "a person wearing sunglasses", "label": 0}
+{"premise": "A baby showing it is very tired and sleepy.", "hypothesis": "A baby showing it is very tired and sleepy.", "label": 0}
+{"premise": "Men in turbans watch while one grips a camel by the throat.", "hypothesis": "Men in turbans watch while one grips a camel by the throat", "label": 0}
+{"premise": "A young boy with flour on his nose and cheeks is dressed in overalls and an apron has his hands in a bowl while he smiles for the camera.", "hypothesis": "A young boy with flour on his nose and cheeks is dressed in overalls and an apron has his hands in a bowl while he smiles for the camera.", "label": 0}
+{"premise": "I love you so much, will you marry me?", "hypothesis": "Will you marry me?", "label": 0}
+{"premise": "A redhead women in blue jeans is sitting in a cemetery on the coast.", "hypothesis": " A redhead women in blue jeans.", "label": 0}
+{"premise": "On a cool but bright morning, women walk on the street.", "hypothesis": "Women walk on the street.", "label": 0}
+{"premise": "A man is walking by a diesel refilling station.", "hypothesis": "A man is walking by a diesel refilling station.", "label": 0}
+{"premise": "Picture of a guy at a gas station.", "hypothesis": "Picture of a guy at a gas station", "label": 0}
+{"premise": "Two wrestlers are fighting, the wrestler in blue has the advantage.", "hypothesis": "Two wrestlers are fighting.", "label": 0}
+{"premise": "A man in a pink shirt is looking at a laptop computer, while a lady in a black and white print dress, is blowing on her coffee cup.", "hypothesis": "A man in a pink shirt", "label": 0}
+{"premise": "Here is a picture of a construction crew getting ready to go to work on a skyscraper.", "hypothesis": "Here is a picture of a construction crew getting ready to go to work on a skyscraper", "label": 0}
+{"premise": "A cowboy is riding a horse whilst spinning a lasso around.", "hypothesis": "A cowboy is riding a horse whilst spinning a lasso around.", "label": 0}
+{"premise": "Group of kids riding scooters.", "hypothesis": "Group of kids riding scooters.", "label": 0}
+{"premise": "A young boy kicks at the autumn leaves beneath his feet.", "hypothesis": "A young boy kicks", "label": 0}
+{"premise": "Two dogs are wrestling in a field.", "hypothesis": "Two dogs are wrestling in a field", "label": 0}
+{"premise": "Two women discussing a topic at the library.", "hypothesis": "Two women discussing a topic at the library.", "label": 0}
+{"premise": "A man in a black hat reaches into a box.", "hypothesis": "A man in a black hat reaches into a box", "label": 0}
+{"premise": "A darkly dressed woman wearing glasses leans on the beverage display in a grocery store.", "hypothesis": "A darkly dressed woman wearing glasses leans on the beverage display in a grocery store.", "label": 0}
+{"premise": "A boy on a donkey stops to talk.", "hypothesis": "a boy on a donkey", "label": 0}
+{"premise": "Children participate in a martial arts tournament.", "hypothesis": "Children participate  in a martial arts tournament.", "label": 0}
+{"premise": "A kid on a surfboard riding a small wave.", "hypothesis": "A kid on a surfboard.", "label": 0}
+{"premise": "A man jumping a bicycle over a dirt path surrounded by trees.", "hypothesis": "A man jumping a bicycle over a dirt path surrounded by trees.", "label": 0}
+{"premise": "A smiling elderly man is creating pottery.", "hypothesis": "A smiling elderly man", "label": 0}
+{"premise": "Three people are running and the one man in the middle is giving a thumbs up.", "hypothesis": "Three people are running.", "label": 0}
+{"premise": "Children playing outside in a fountain.", "hypothesis": "Children playing outside in a fountain.", "label": 0}
+{"premise": "A man with a blue bull mask on his head walks among a crowd.", "hypothesis": "A man with a blue bull mask on his head walks among a crowd.", "label": 0}
+{"premise": "A woman carrying a bag is smoking.", "hypothesis": "A woman carrying a bag.", "label": 0}
+{"premise": "Young girl in red dress is kissing another girl on the head.", "hypothesis": "Young girl in red dress is kissing another girl on the head", "label": 0}
+{"premise": "A man covered in sand is looking inside of a metal bucket.", "hypothesis": "A man covered in sand.", "label": 0}
+{"premise": "A very excited man and woman look like something has gone their way and they are celebrating.", "hypothesis": "A very excited man and woman look like something has gone their way.", "label": 0}
+{"premise": "People wearing red harvesting out of a green field.", "hypothesis": "People wearing red harvesting out of a green field.", "label": 0}
+{"premise": "A group of children in coats are standing and sitting on a sidewalk.", "hypothesis": "A group of children in coats.", "label": 0}
+{"premise": "A sea of people crammed between buildings gather in the street.", "hypothesis": "A sea of people crammed between buildings.", "label": 0}
+{"premise": "A man in a blue shirt is building a sand castle at the beach.", "hypothesis": "A man in a blue shirt is building a sand castle at the beach", "label": 0}
+{"premise": "A woman on the beach throwing a frisbee.", "hypothesis": "A woman on the beach.", "label": 0}
+{"premise": "A man wearing a hat taking a nap.", "hypothesis": "A man wearing a hat taking a nap.", "label": 0}
+{"premise": "Two women in head wraps.", "hypothesis": "Two women in head wraps.", "label": 0}
+{"premise": "A man at a party with one woman on his lap and two women sitting to his left.", "hypothesis": "A man at a party with one woman on his lap and two women sitting to his left", "label": 0}
+{"premise": "A group of 8 teenager sitting along a wall holding a string.", "hypothesis": "A group of 8 teenager sitting along a wall holding a string.", "label": 0}
+{"premise": "A group of people, many on bikes in a large city.", "hypothesis": "a group of people", "label": 0}
+{"premise": "A policeman sits on a motorcycle.", "hypothesis": "A policeman sits on a motorcycle.", "label": 0}
+{"premise": "A man and a woman wearing white shirts in a wooded area.", "hypothesis": "A man and a woman.", "label": 0}
+{"premise": "People are running from a fire.", "hypothesis": "People are running from a fire.", "label": 0}
+{"premise": "Two children laying on the ground smile at each other.", "hypothesis": "Two children laying on the ground.", "label": 0}
+{"premise": "Men wearing red and white stripe shirts and wearing blue hats carrying flags outside a brick building.", "hypothesis": "Men wearing red and white stripe shirts and wearing blue hats carrying flags outside a brick building.", "label": 0}
+{"premise": "A group of people waiting for the subway.", "hypothesis": "A group of people waiting for the subway.", "label": 0}
+{"premise": "A man cooking on a grill.", "hypothesis": "A man cooking on a grill.", "label": 0}
+{"premise": "A lady on stilts on a sidewalk has spectators.", "hypothesis": "A lady on stilts on a sidewalk.", "label": 0}
+{"premise": "A man playing cricket closely inspects a shot.", "hypothesis": "A man playing cricket.", "label": 0}
+{"premise": "Young girl in pink shirt kicking blue ball.", "hypothesis": "Young girl in pink shirt kicking blue ball.", "label": 0}
+{"premise": "A man standing in a kitchen with dishwasher and silverware drawer open.", "hypothesis": "A man standing in a kitchen with dishwasher and silverware drawer open.", "label": 0}
+{"premise": "A man is playing a guitar in a large tent with an audience watching.", "hypothesis": "A man is playing a guitar in a large tent with an audience watching.", "label": 0}
+{"premise": "A surfer in a black wetsuit rides a wave.", "hypothesis": "A surfer.", "label": 0}
+{"premise": "Two girls in white and gold seductive costumes are standing with microphones next to an older man, playing the guitar.", "hypothesis": "Two girls in white and gold seductive costumes.", "label": 0}
+{"premise": "A skier in the mountains.", "hypothesis": "A skier in the mountains.", "label": 0}
+{"premise": "A baby in a cart on a sidewalk.", "hypothesis": "A baby in a cart on a sidewalk.", "label": 0}
+{"premise": "Jockeys on horses during a race.", "hypothesis": "Jockeys on horses.", "label": 0}
+{"premise": "A group of people are sitting on a sofa hugging each other.", "hypothesis": "A group of people are sitting on a sofa hugging each other.", "label": 0}
+{"premise": "An old man with gray hair wearing a scarf and black jacket.", "hypothesis": "An old man.", "label": 0}
+{"premise": "Man wearing gas mask cleaning toilet.", "hypothesis": "Man wearing gas mask cleaning toilet.", "label": 0}
+{"premise": "A boy is wearing a costume.", "hypothesis": "A boy is wearing a costume", "label": 0}
+{"premise": "A man in a tie standing outside.", "hypothesis": "A man in a tie standing outside", "label": 0}
+{"premise": "A person in a blue shirt and hat working on a roof of a structure that is behind a fence.", "hypothesis": "A person in a blue shirt and hat working on a roof of a structure that is behind a fence", "label": 0}
+{"premise": "A man and woman talking are interrupted and a man covers his face.", "hypothesis": "A man and woman talking are interrupted.", "label": 0}
+{"premise": "Two women are in a bathroom and one has a broom.", "hypothesis": "two women are in a bathroom", "label": 0}
+{"premise": "Two young girls in the tree with their dog.", "hypothesis": "Two young girls in the tree with their dog.", "label": 0}
+{"premise": "Old man selling potatoes in a field next to a body of water.", "hypothesis": "Old man selling potatoes in a field", "label": 0}
+{"premise": "A man embraces a woman on a crowded street.", "hypothesis": "A man embraces a woman on a crowded street", "label": 0}
+{"premise": "a man stares at a lady.", "hypothesis": "A man stares at a lady.", "label": 0}
+{"premise": "Two rugby players during a game.", "hypothesis": "Two rugby players.", "label": 0}
+{"premise": "Girl playing flute as she walks by fence in rural area.", "hypothesis": "Girl playing flute.", "label": 0}
+{"premise": "Bikers participate in a race.", "hypothesis": "Bikers participate in a race.", "label": 0}
+{"premise": "A baby smiling and playing.", "hypothesis": "A baby smiling and playing", "label": 0}
+{"premise": "A blond woman in a purple sweatshirt is sitting on a bench with a man drinking a juice box.", "hypothesis": "A blond woman in a purple sweatshirt is sitting on a bench with a man drinking a juice box.", "label": 0}
+{"premise": "A snow dog in a red harness.", "hypothesis": "A snow dog.", "label": 0}
+{"premise": "Two people dressed in pink.", "hypothesis": "Two people.", "label": 0}
+{"premise": "A brown dog is fetching something in its mouth on a field.", "hypothesis": "A brown dog is fetching something in its mouth on a field", "label": 0}
+{"premise": "A scientist performs a lab test using fresh raw eggs.", "hypothesis": "A scientist performs a lab test using fresh raw eggs", "label": 0}
+{"premise": "A male gymnast swinging from two hoops.", "hypothesis": "A male gymnast swinging from two hoops", "label": 0}
+{"premise": "A group of people light lanterns.", "hypothesis": "People light lanterns", "label": 0}
+{"premise": "Man holding newspaper next to coffee advertisement.", "hypothesis": "Man holding newspaper", "label": 0}
+{"premise": "Women wait on a sidewalk.", "hypothesis": "Women wait on a sidewalk.", "label": 0}
+{"premise": "A wrestling match just ended and the loser is upset.", "hypothesis": "A wrestling match just ended.", "label": 0}
+{"premise": "A train is underground.", "hypothesis": "A train is underground.", "label": 0}
+{"premise": "Two guys are sitting playing chess.", "hypothesis": "Two guys are sitting playing chess", "label": 0}
+{"premise": "Two women eating together and smiling.", "hypothesis": "Two women eating together and smiling.", "label": 0}
+{"premise": "A surfer rides on his stomach on a surfboard in green water.", "hypothesis": "A surfer rides on his stomach on a surfboard in green water", "label": 0}
+{"premise": "A crew aboard a sailboat at sea.", "hypothesis": "A crew aboard a sailboat.", "label": 0}
+{"premise": "A woman wearing orange holds a green and pink hula hoop behind her head.", "hypothesis": "A woman wearing orange.", "label": 0}
+{"premise": "A boy jumps on a trampoline.", "hypothesis": "a boy jumps on a trampoline", "label": 0}
+{"premise": "an older woman in a pink striped shirt", "hypothesis": "An older woman in a pink striped shirt", "label": 0}
+{"premise": "Man with cigarette in nun outfit.", "hypothesis": "Man with cigarette", "label": 0}
+{"premise": "A person walking down stairs and you can see a long shadow", "hypothesis": "A person walking down stairs and you can see a long shadow", "label": 0}
+{"premise": "a young man jumping through the air near a staircase", "hypothesis": "a young man jumping through the air near a staircase", "label": 0}
+{"premise": "The little boy runs into the ocean.", "hypothesis": "The little boy runs into the ocean", "label": 0}
+{"premise": "A couple of people are standing and the person in the red coat is pointing at the body of water.", "hypothesis": "The person in the red coat is pointing at the body of water.", "label": 0}
+{"premise": "A man in a pair of jeans and blue shirt is conversing with a woman in a blue shirt pushing a plaid stroller.", "hypothesis": " A man in a pair of jeans and blue shirt.", "label": 0}
+{"premise": "A man making balloon animals on a city street.", "hypothesis": "A man making balloon animals on a city street.", "label": 0}
+{"premise": "Boy with a blue towel and white hat holding goggles and a snokel.", "hypothesis": "Boy with a blue towel and white hat holding goggles and a snokel.", "label": 0}
+{"premise": "This path leads up to the apple market entrance.", "hypothesis": "This path leads up to the apple market entrance", "label": 0}
+{"premise": "Six people in hard hats are walking through the snow.", "hypothesis": "Six people in hard hats are walking through the snow", "label": 0}
+{"premise": "A street performer tries to escape from being tied up while group of onlookers surround him.", "hypothesis": "A street performer tries to escape from being tied up while group of onlookers surround him.", "label": 0}
+{"premise": "On a deck, a group of people gather around a glass table.", "hypothesis": "A group of people gather around a glass table.", "label": 0}
+{"premise": "An Asian man in a colorful robe is writing on a parchment.", "hypothesis": "An Asian man in a colorful robe", "label": 0}
+{"premise": "a dog chases another dog.", "hypothesis": "a dog chases another dog.", "label": 0}
+{"premise": "A group of people walking together.", "hypothesis": "A group of people.", "label": 0}
+{"premise": "Three people standing under a large mural.", "hypothesis": "Three people standing under a large mural.", "label": 0}
+{"premise": "Young boy plays with sparks near a pond.", "hypothesis": "Young boy plays with sparks near a pond.", "label": 0}
+{"premise": "A street vegetable and fruit market is lit up at night, a shopper visible toward the back, hand shopping carts at the forefront, and at the bottom left a sign showing that artichokes are on sale for special price when you buy 3.", "hypothesis": "A street vegetable and fruit market is lit up at night", "label": 0}
+{"premise": "A young girl in Red and pink, with braided hair dances and smiles among the pigeons outdoors in the open area.", "hypothesis": "A young girl in red and pink", "label": 0}
+{"premise": "Men are shining shoes on the street.", "hypothesis": "Men are shining shoes on the street.", "label": 0}
+{"premise": "A boy on a skateboard is on a wall near the water and next to grass.", "hypothesis": "A boy on a skateboard.", "label": 0}
+{"premise": "Cameraman scoping out camera angles.", "hypothesis": "Cameraman scoping out camera angles", "label": 0}
+{"premise": "A lady wearing a black hoodie is standing near an old rusty truck.", "hypothesis": "A lady wearing a black hoodie is standing near an old rusty truck", "label": 0}
+{"premise": "Man in a boat on a lake, surrounded by mountains and forestry.", "hypothesis": "Man in a boat on a lake.", "label": 0}
+{"premise": "Skateboarder not wearing a shirt does a cool trick.", "hypothesis": "Skateboarder not wearing a shirt does a cool trick.", "label": 0}
+{"premise": "Woman on bench looking at cloudy mountain view.", "hypothesis": "Cloudy mountain view", "label": 0}
+{"premise": "Several people sit on a crowded subway, while two woman stand in the middle holding the poles.", "hypothesis": "A crowded subway.", "label": 0}
+{"premise": "The crowd of people are watching the giant sized elephant.", "hypothesis": "The crowd of people are watching the giant sized elephant.", "label": 0}
+{"premise": "The boy in gray is laying in the snow while he takes a break.", "hypothesis": "The boy in gray is laying in the snow while he takes a break", "label": 0}
+{"premise": "A race car blows smoke while it drives.", "hypothesis": "A race car blows smoke while it drives.", "label": 0}
+{"premise": "An Asian woman in a red sweater holding her baby.", "hypothesis": "An Asian woman in a red sweater.", "label": 0}
+{"premise": "A man is giving a speech.", "hypothesis": "A man is giving a speech.", "label": 0}
+{"premise": "Two people walking outside a castle.", "hypothesis": "Two people walking outside a castle.", "label": 0}
+{"premise": "Wet dog jumping in water", "hypothesis": "Dog jumping in water.", "label": 0}
+{"premise": "A person on a bike covered in mud from head to toe.", "hypothesis": "a person on a bike", "label": 0}
+{"premise": "a man walks across the tightrope.", "hypothesis": "a man walks across the tightrope.", "label": 0}
+{"premise": "A chihuahua on a leash stands outside a door grate, behind which the lower legs, skirt, and hand of the person holding the leash can be seen.", "hypothesis": "A chihuahua on a leash.", "label": 0}
+{"premise": "Two boys play with two dogs at the shore.", "hypothesis": "Two boys play with two dogs at the shore", "label": 0}
+{"premise": "A child with orange and white water wings is playing in a pool.", "hypothesis": "A child with orange and white water wings is playing in a pool.", "label": 0}
+{"premise": "a shirtless man and woman in a black shirt running.", "hypothesis": "A shirtless man and woman in a black shirt running", "label": 0}
+{"premise": "Children sitting in a classroom.", "hypothesis": "Children sitting in a classroom.", "label": 0}
+{"premise": "A group of men playing soccer, most of them looking at one man in black.", "hypothesis": " A group of men playing soccer.", "label": 0}
+{"premise": "People are looking at the counter.", "hypothesis": "People are looking at the counter", "label": 0}
+{"premise": "Bicyclists in a race with onlookers.", "hypothesis": "Bicyclists in a race", "label": 0}
+{"premise": "Two woman standing in a calm wheat field bundling their harvest.", "hypothesis": "Two woman standing in a calm wheat field bundling their harvest.", "label": 0}
+{"premise": "The ground where the bike is parked is muddy with pebbles embedded into the road.", "hypothesis": "The bike is parked.", "label": 0}
+{"premise": "Some teenage baseball players sit at the bench while two men appear to be speaking to them.", "hypothesis": "Some teenage baseball players sit at the bench while two men appear to be speaking to them", "label": 0}
+{"premise": "Guys in a canoe competition race.", "hypothesis": "Guys in a canoe competition race", "label": 0}
+{"premise": "A black man wearing a green hat.", "hypothesis": "A black man wearing a green hat.", "label": 0}
+{"premise": "A man wearing a gray sweatshirt play electric guitar and a man in a black sleeveless shirt drums while a crowd of people watches from behind them.", "hypothesis": "A man wearing a gray sweatshirt play electric guitar and a man in a black sleeveless shirt drums while a crowd of people watches from behind them.", "label": 0}
+{"premise": "A city street is shown with many people on both sides.", "hypothesis": "A city street is shown with many people on both sides", "label": 0}
+{"premise": "Six men are looking at a cement hole in the ground and talking next to a backhoe.", "hypothesis": "Six men are looking at a cement  hole in the ground and talking next to a backhoe.", "label": 0}
+{"premise": "A baby swimming in a pool held up by an adult.", "hypothesis": "A baby swimming in a pool.", "label": 0}
+{"premise": "A baby swimming in a pool held up by an adult.", "hypothesis": "A baby swimming in a pool held up by an adult.", "label": 0}
+{"premise": "A young Asian man with long black hair in a t-shirt and shorts sits in front of a large musical drum.", "hypothesis": "A young Asian man with long black hair in a t-shirt and shorts sits in front of a large musical drum.", "label": 0}
+{"premise": "Three tan men on the side of a mountain take a break from digging.", "hypothesis": "Three tan men on the side of a mountain", "label": 0}
+{"premise": "Two men located on a roof prepare to look into a chimney.", "hypothesis": "Two men located on a roof", "label": 0}
+{"premise": "Two people carrying water bottles pause at a market stall.", "hypothesis": "Two people carrying water bottles.", "label": 0}
+{"premise": "Women cleaning store windows.", "hypothesis": "Women cleaning store windows.", "label": 0}
+{"premise": "A middle-aged man in jeans and a brown t-shirt is pulling a yellow cable in front of a truck.", "hypothesis": "A middle-aged man in jeans and a brown t-shirt is pulling a yellow cable in front of a truck.", "label": 0}
+{"premise": "A jockey rides her pale and mottled horse through some jumps; one of the obstacles takes the shape of a pair of old-fashioned Coke bottles.", "hypothesis": " A jockey rides her pale and mottled horse through some jumps.", "label": 0}
+{"premise": "A construction worker posing for the camera.", "hypothesis": "a construction worker", "label": 0}
+{"premise": "Two men are standing in front of a cash register with several items.", "hypothesis": "Two men are standing in front of a cash register with several items.", "label": 0}
+{"premise": "A man in a lift bucket is trimming tree branches.", "hypothesis": "a man in a lift bucket", "label": 0}
+{"premise": "Two women with decorated bicycles one is wearing a red backpack and the other has a black helmet and pink sweatshirt.", "hypothesis": "Two women with decorated bicycles one is wearing a red backpack and the other has a black helmet and pink sweatshirt.", "label": 0}
+{"premise": "About eight women in purple and blue dresses bow towards a man dressed in black.", "hypothesis": "About eight women in purple and blue dresses.", "label": 0}
+{"premise": "A man is watching as a man inflates a balloon.", "hypothesis": "A man inflates a balloon.", "label": 0}
+{"premise": "A man wearing a green scarf is using a pottery wheel.", "hypothesis": "A man wearing a green scarf is using a pottery wheel", "label": 0}
+{"premise": "A lot of people in a meeting with a man in the back standing with a black shirt and black hat.", "hypothesis": "A lot of people in a meeting with a man in the back standing with a black shirt and black hat", "label": 0}
+{"premise": "A young woman in a dark hat is sitting on something in the large body of water with green mountains in the background and her legs are in the water.", "hypothesis": "A young woman in a dark hat is sitting on something in the large body of water with green mountains in the background and her legs are in the water.", "label": 0}
+{"premise": "two men are sitting on a rock and the one with blue and strip tee is eating.", "hypothesis": "Two men are sitting on a rock", "label": 0}
+{"premise": "A small band made up of 4 young guys are in the middle of a performance.", "hypothesis": "A small band made up of 4 young guys are in the middle of a performance", "label": 0}
+{"premise": "A man plays buckets like drums.", "hypothesis": "A man plays buckets like drums", "label": 0}
+{"premise": "A man stretches out on the floor.", "hypothesis": "A man stretches out on the floor", "label": 0}
+{"premise": "Group of people clapping in a circle", "hypothesis": "People clapping in a circle.", "label": 0}
+{"premise": "Two girls dressed in costume with purple flowers in their hair strike a pose for the camera.", "hypothesis": "Two girls dressed in costume with purple flowers in their hair strike a pose for the camera.", "label": 0}
+{"premise": "A woman in a blue dress stands in a crowd.", "hypothesis": "A woman in a blue dress.", "label": 0}
+{"premise": "A basketball arena before a basketball game.", "hypothesis": "A basketball arena.", "label": 0}
+{"premise": "A group of people building a structure are talking.", "hypothesis": "A group of people building a structure.", "label": 0}
+{"premise": "A young girl carries a toddler on her back.", "hypothesis": "A young girl carries a toddler on her back", "label": 0}
+{"premise": "Three men are playing rugby, one man is attempting to tackle the man on the opposite team who is holding the ball.", "hypothesis": "Three men are playing rugby.", "label": 0}
+{"premise": "A female in an orange sweatsuit walks down the street.", "hypothesis": "A female in an orange sweatsuit walks down the street.", "label": 0}
+{"premise": "People walking past an escalator under a beam and glass ceiling.", "hypothesis": "People walking past an escalator under a beam and glass ceiling.", "label": 0}
+{"premise": "The women in the flowered pants is doing gardening.", "hypothesis": "The women in the flowered pants", "label": 0}
+{"premise": "A woman in shorts walking next to a car is a tropical area.", "hypothesis": "A woman in shorts walking next to a car.", "label": 0}
+{"premise": "Two men attempt to hit a ball on a sports field with their team members standing by.", "hypothesis": "Two men attempt to hit a ball on a sports field with their team members standing by", "label": 0}
+{"premise": "A couple of men in hats posing for a picture by a gas station.", "hypothesis": "men in hats", "label": 0}
+{"premise": "Two workers are putting up a billboard.", "hypothesis": "Two workers are putting up a billboard", "label": 0}
+{"premise": "A dog looks on as a woman eats.", "hypothesis": "A woman eats.", "label": 0}
+{"premise": "A man with a hard hat is harnessed to a steel structure.", "hypothesis": "A man with a hard hat is harnessed to a steel structure", "label": 0}
+{"premise": "Two men are sitting and its a nighttime.", "hypothesis": "Two men are sitting and its a nighttime.", "label": 0}
+{"premise": "A young child with ringlet curls laying in a grassy area blows dandelion fuzz off a stem.", "hypothesis": "A young child with ringlet curls laying in a grassy area.", "label": 0}
+{"premise": "A person wearing a colorful short-sleeved shirt and holding some sort of cloth raises both hands above his or her head.", "hypothesis": "A person wearing a colorful short-sleeved shirt and holding some sort of cloth", "label": 0}
+{"premise": "A group of people standing in line.", "hypothesis": "A group of people.", "label": 0}
+{"premise": "A line of people are biking down a road.", "hypothesis": "A line of people are biking down a road", "label": 0}
+{"premise": "A couple on the side of the road talking.", "hypothesis": "A couple on the side of the road talking.", "label": 0}
+{"premise": "Man jumping off a rock into water.", "hypothesis": "Man jumping off a rock into water.", "label": 0}
+{"premise": "A worker pauses while clearing vegetation.", "hypothesis": "A worker pauses while clearing vegetation.", "label": 0}
+{"premise": "A white and black dog is running over dirt.", "hypothesis": "A white and black dog is running over dirt.", "label": 0}
+{"premise": "A man wearing a black ball-cap is loading large beanbag chairs atop his small, compact, white car.", "hypothesis": " A man wearing a black ball-cap.", "label": 0}
+{"premise": "A woman is wearing ice skates and there are groups of people in the background.", "hypothesis": "A woman is wearing ice skates.", "label": 0}
+{"premise": "A man in a blue shirt and a woman in a white shirt in front of a sign written in an Asian language.", "hypothesis": "A man in a blue shirt and a woman in a white shirt in front of a sign", "label": 0}
+{"premise": "A young boy asleep in a stroller.", "hypothesis": "A young boy asleep in a stroller.", "label": 0}
+{"premise": "A child reaches for a bar.", "hypothesis": "A child reaches for a bar.", "label": 0}
+{"premise": "Two construction workers wearing yellow rubber boots are sitting next to some pipes.", "hypothesis": "Two construction workers.", "label": 0}
+{"premise": "A boy and girl bounce on a trampoline nearby a playground and area of foliage.", "hypothesis": "A boy and girl bounce on a trampoline", "label": 0}
+{"premise": "A man walking away from the camera pulls a three-wheeled cart through a dark alley.", "hypothesis": "A man walking away from the camera.", "label": 0}
+{"premise": "A woman in a Green Day shirt on a boat hooks something with a fishing pole.", "hypothesis": "A woman in a Green Day shirt on a boat hooks something with a fishing pole.", "label": 0}
+{"premise": "Two men box.", "hypothesis": "Two men box.", "label": 0}
+{"premise": "A group of people in swimsuits enjoy themselves on a cruise ship.", "hypothesis": "A group of people in swimsuits.", "label": 0}
+{"premise": "A rock climber hangs from a ledge while others look on.", "hypothesis": "A rock climber hangs from a ledge while others look on.", "label": 0}
+{"premise": "The people are racing horses.", "hypothesis": "The people are racing horses", "label": 0}
+{"premise": "A bearded man in a blue shirt ls laughing while a suited mustached man holds up a glass.", "hypothesis": "A bearded man in a blue shirt ls laughing while a suited mustached man holds up a glass.", "label": 0}
+{"premise": "A picture of a racer from go-kart street race.", "hypothesis": "a picture of a racer", "label": 0}
+{"premise": "A person with a large backpack hiking through the tall grass.", "hypothesis": "A person with a large backpack.", "label": 0}
+{"premise": "A man wearing a white shirt and jeans is wrestling with a man wearing a light blue shirt and white pants.", "hypothesis": "A man wearing a white shirt and jeans is wrestling with a man wearing a light blue shirt and white pants", "label": 0}
+{"premise": "Lady in red wearing boots walks right and a man in a blue suit walks left in front of an \"I heart\" NY mural.", "hypothesis": " Lady in red wearing boots.", "label": 0}
+{"premise": "A high school football running back sprints towards the end zone.", "hypothesis": "A high school football running back", "label": 0}
+{"premise": "A man wearing a baseball hat using public transportation.", "hypothesis": "A man wearing a baseball hat using public transportation.", "label": 0}
+{"premise": "A skateboarder midair with his skateboard.", "hypothesis": "A skateboarder midair with his skateboard.", "label": 0}
+{"premise": "The family lines up for a photo at a wedding.", "hypothesis": "the family lines up for a photo", "label": 0}
+{"premise": "A kayak on the river is passing by a wire bridge that joins both banks.", "hypothesis": "a kayak on the river", "label": 0}
+{"premise": "Man on the beach is throwing a red ball.", "hypothesis": "Man on the beach", "label": 0}
+{"premise": "A group of hispanic women and children walking down the street.", "hypothesis": "A group of hispanic women and children walking down the street", "label": 0}
+{"premise": "At some sort of carnival, a man is making cotton candy.", "hypothesis": "A man is making cotton candy", "label": 0}
+{"premise": "Multiple butchers prepossessing meat and hanging it.", "hypothesis": "Butchers prepossessing meat and hanging it.", "label": 0}
+{"premise": "a man wears a backpack.", "hypothesis": "A man wears a backpack", "label": 0}
+{"premise": "A man is sitting on rock ledges.", "hypothesis": "A man is sitting on rock ledges.", "label": 0}
+{"premise": "friends posing for a picture while holding plates", "hypothesis": "Friends posing for a picture.", "label": 0}
+{"premise": "Four girls in a kitchen near a plate of brownies.", "hypothesis": "Four girls in a kitchen.", "label": 0}
+{"premise": "A woman with orange hair sitting behind a table with Tye-dyed t-shirts on them.", "hypothesis": "A woman with orange hair.", "label": 0}
+{"premise": "A one-armed man in a brown shirt sits in a chair facing the camera.", "hypothesis": "A one-armed man.", "label": 0}
+{"premise": "A family poses seated on concrete steps.", "hypothesis": "A family poses seated on concrete steps", "label": 0}
+{"premise": "A group of people are walking up steps leading up to a bridge.", "hypothesis": "A group of people are walking up steps leading up to a bridge.", "label": 0}
+{"premise": "A boat full of Asian people is sailed through reeds and bushes.", "hypothesis": "A boat full of Asian people", "label": 0}
+{"premise": "A woman wearing a blue dress is holding a microphone and smiling while her friend looks on.", "hypothesis": "A woman wearing a blue dress is holding a microphone and smiling while her friend looks on.", "label": 0}
+{"premise": "Woman cleaning the windows of a building.", "hypothesis": "Woman cleaning the windows of a building.", "label": 0}
+{"premise": "A closeup shot of three guys and a girl posing for the camera.", "hypothesis": "Three guys and a girl.", "label": 0}
+{"premise": "A man wearing a hat and scarf stands in a crowd.", "hypothesis": "A man wearing a hat and scarf stands in a crowd.", "label": 0}
+{"premise": "People are dancing and enjoying the live music.", "hypothesis": "People are dancing and enjoying the live music.", "label": 0}
+{"premise": "A kid in an ocean rides a wave.", "hypothesis": "A kid in an ocean.", "label": 0}
+{"premise": "A sailor takes a photo with a life preserver.", "hypothesis": "a sailor takes a photo with a life preserver", "label": 0}
+{"premise": "Three women jumping in front of a body of water.", "hypothesis": "Three women jumping in front of a body of water", "label": 0}
+{"premise": "a day at the ball park, playing baseball.", "hypothesis": "Playing baseball.", "label": 0}
+{"premise": "There are two guys near the podium.", "hypothesis": "There are two guys near the podium", "label": 0}
+{"premise": "A couple is playing outside in a park, one a man on a guitar and the other a lady on a violin.", "hypothesis": "A couple is playing outside in a park.", "label": 0}
+{"premise": "A person riding a dirt bike.", "hypothesis": "A person riding a dirt bike.", "label": 0}
+{"premise": "An older man in a gray suit and carrying a book and a briefcase is reaching the top of a marble staircase.", "hypothesis": "An older man in a gray suit and carrying a book and a briefcase.", "label": 0}
+{"premise": "A pony-tailed man in a yellow jacket is wearing a bicycle helmet.", "hypothesis": "A pony-tailed man in a yellow jacket is wearing a bicycle helmet.", "label": 0}
+{"premise": "Two kids wearing warm clothing look happily down through a tire swing for a picture.", "hypothesis": "Two kids wearing warm clothing.", "label": 0}
+{"premise": "Two people work with garden tools in a rocky landscape.", "hypothesis": "Two people work with garden tools in a rocky landscape", "label": 0}
+{"premise": "a boy under an umbrella is held by his father who is wearing a blue coat", "hypothesis": "a boy under an umbrella", "label": 0}
+{"premise": "A person wearing a clown mask looks to the right.", "hypothesis": "A person wearing a clown mask.", "label": 0}
+{"premise": "A group of people are getting fountain drinks at a convenience store.", "hypothesis": "A group of people are getting fountain drinks at a convenience store", "label": 0}
+{"premise": "In the beach a woman is balancing a basket of shells on her head.", "hypothesis": "A woman is balancing a basket of shells on her head.", "label": 0}
+{"premise": "Young man wearing all black jogs in a park.", "hypothesis": "Young man wearing all black.", "label": 0}
+{"premise": "A little girl dressed in white is playing with water.", "hypothesis": "A little girl dressed in white.", "label": 0}
+{"premise": "A man gives a presentation.", "hypothesis": "A man gives a presentation.", "label": 0}
+{"premise": "A mustached man wearing glasses and a maroon polo is attempting to use a food processor.", "hypothesis": "A mustached man wearing glasses and a maroon polo is attempting to use a food processor.", "label": 0}
+{"premise": "A Oklahoma football player standing", "hypothesis": "A Oklahoma football player standing", "label": 0}
+{"premise": "Two girls photographing a painting.", "hypothesis": "A painting.", "label": 0}
+{"premise": "A group of performers dancing in front of two DJs.", "hypothesis": "A group of performers dancing in front of two DJs", "label": 0}
+{"premise": "A man is wearing a striped shirt and a woman is singing.", "hypothesis": "A man is wearing a striped shirt.", "label": 0}
+{"premise": "A member of the armed forces cracks an egg in a tent.", "hypothesis": "A member of the armed forces.", "label": 0}
+{"premise": "A parade of men in ceremonial dress pass De Credito.", "hypothesis": "A parade.", "label": 0}
+{"premise": "A man is skateboarding down 2 stairs.", "hypothesis": "A man is skateboarding down 2 stairs.", "label": 0}
+{"premise": "A man wearing a blue shirt smokes a cigarette in front of an official building.", "hypothesis": "A man wearing a blue shirt.", "label": 0}
+{"premise": "A man installing a tile floor.", "hypothesis": "A man installing a tile floor", "label": 0}
+{"premise": "A toddle aged boy in a blue baseball hat is being helped off of monkey bars.", "hypothesis": "A toddle aged boy in a blue baseball hat is being helped off of monkey bars", "label": 0}
+{"premise": "A child holding on to the bar while riding a horse on a carousel ride.", "hypothesis": "A child holding on to the bar while riding a horse on a carousel ride.", "label": 0}
+{"premise": "Worker dragging a rope attached to what seems to be a boat.", "hypothesis": "Worker dragging a rope.", "label": 0}
+{"premise": "The girl in the white dress is going down the blue slide", "hypothesis": "The girl in the white dress is going down the blue slide", "label": 0}
+{"premise": "A group of co-ed youth hand wash a red truck, one washes the back glass while another washes the side with a rag.", "hypothesis": "A group of co-ed youth hand wash a red truck.", "label": 0}
+{"premise": "A man in athletic clothing holding a water bottle running.", "hypothesis": "A man in athletic clothing holding a water bottle running", "label": 0}
+{"premise": "A man has a cinder block in his chest.", "hypothesis": "A man has a cinder block in his chest.", "label": 0}
+{"premise": "A girl with a boy standing behind her is stepping into a swimming pool", "hypothesis": "A girl with a boy standing behind her", "label": 0}
+{"premise": "The man is talking in front of the people.", "hypothesis": "the man is talking in front of the people", "label": 0}
+{"premise": "A man in a red uniform dives to hit a shuttlecock with his racket during an Olympic badminton match.", "hypothesis": " A man in a red uniform.", "label": 0}
+{"premise": "There is a man in a white shirt and khaki pants in the background.", "hypothesis": "A man in a white shirt.", "label": 0}
+{"premise": "A man in a baseball cap is measuring and cutting wood in front of him.", "hypothesis": "A man in a baseball cap.", "label": 0}
+{"premise": "A group of men playing baseball.", "hypothesis": "A group of men playing baseball.", "label": 0}
+{"premise": "People are sitting in class, one female is reading a book.", "hypothesis": "People are sitting in class.", "label": 0}
+{"premise": "A man playing drums at a concert.", "hypothesis": "playing drums", "label": 0}
+{"premise": "A female athlete running for the finish line.", "hypothesis": "A female athlete running for the finish line", "label": 0}
+{"premise": "Men standing on scaffolding are working.", "hypothesis": "Men standing on scaffolding.", "label": 0}
+{"premise": "A band on stage in front of a body of water.", "hypothesis": "A band on stage.", "label": 0}
+{"premise": "Two men playing guitars on stage.", "hypothesis": "Two men playing guitars on stage", "label": 0}
+{"premise": "A man and his son are sitting in the open door of a white van.", "hypothesis": "A man and his son are sitting in the open door of a white van", "label": 0}
+{"premise": "A woman standing on what looks like a Roman street.", "hypothesis": "A woman standing on what looks like a Roman street.", "label": 0}
+{"premise": "a woman with glasses and a pink hat rides her bike.", "hypothesis": "A woman with glasses and a pink hat rides her bike", "label": 0}
+{"premise": "Asian buffet style restaurant.", "hypothesis": "Asian buffet style restaurant.", "label": 0}
+{"premise": "Three friends hanging out around a photo booth.", "hypothesis": " Three friends hanging out around a photo booth.", "label": 0}
+{"premise": "This girl is smiling while she wears a halo of flowers.", "hypothesis": "This girl is smiling while she wears a halo of flowers", "label": 0}
+{"premise": "In the kitchen of a fancy restaurant, a fine dish has been prepared by the staff.", "hypothesis": "A fine dish has been prepared by the staff.", "label": 0}
+{"premise": "Sports fans are tailgating.", "hypothesis": "Sports fans are tailgating.", "label": 0}
+{"premise": "A happy couple enjoying their open air wedding.", "hypothesis": "A happy couple enjoying their open air wedding.", "label": 0}
+{"premise": "An empty living room in an apartment.", "hypothesis": "An apartment.", "label": 0}
+{"premise": "Crowds of people observing a marathon, the London Eye is in the background.", "hypothesis": "Crowds of people observing a marathon", "label": 0}
+{"premise": "A lady is jogging and a man is riding a bicycle.", "hypothesis": "A lady is jogging.", "label": 0}
+{"premise": "A young man sits on the side of the road with his belongings.", "hypothesis": "A young man sits on the side of the road with his belongings", "label": 0}
+{"premise": "Two kids are looking up, one has no shirt and the other has on a white shirt with a stool on his head.", "hypothesis": "Two kids are looking up.", "label": 0}
+{"premise": "Men installing beams for a tall structure.", "hypothesis": "Men installing beams for a tall structure.", "label": 0}
+{"premise": "A man in a yellow shirt standing at a long table looking at different kinds of flower arrangements on the table.", "hypothesis": "a man in a yellow shirt", "label": 0}
+{"premise": "Two girls are barefoot and splashing in the water.", "hypothesis": "Two girls are barefoot and splashing in the water", "label": 0}
+{"premise": "A baby gives a woman an opportunity to engage in its world.", "hypothesis": "A baby gives a woman an opportunity to engage in its world", "label": 0}
+{"premise": "Several men of Indian origin are conversing and one, in particular, seems very excited about the conversation.", "hypothesis": "Several men of Indian origin are conversing.", "label": 0}
+{"premise": "Looks like a farmers market, a few tables with various items displayed.", "hypothesis": "A farmers market.", "label": 0}
+{"premise": "The baseball player is throwing the ball.", "hypothesis": "the baseball player is throwing the ball", "label": 0}
+{"premise": "A man flies through the air as a young girl standing on a couch appears to bunch him in the stomach.", "hypothesis": "A man flies through the air as a young girl standing on a couch appears to bunch him in the stomach.", "label": 0}
+{"premise": "A dog with big ears in the street.", "hypothesis": "A dog with big ears in the street.", "label": 0}
+{"premise": "Two off road bikers stopped in a creek.", "hypothesis": "Two off road bikers stopped in a creek.", "label": 0}
+{"premise": "a warmly dressed male photographer is taking pictures of a cold bikini model at the beach.", "hypothesis": "a warmly dressed male photographer is taking pictures of a cold bikini model at the beach.", "label": 0}
+{"premise": "A boy without a shirt on is jumping in the air almost upside down.", "hypothesis": "A boy without a shirt on is jumping in the air almost upside down", "label": 0}
+{"premise": "A snowboarder doing a handstand.", "hypothesis": "A snowboarder", "label": 0}
+{"premise": "A black man wearing a beanie is reading a billboard at the subway entrance.", "hypothesis": "A black man.", "label": 0}
+{"premise": "A man in a hard hat looking up at something.", "hypothesis": "A man in a hard hat.", "label": 0}
+{"premise": "A group of people are gathered around a person laying on the ground.", "hypothesis": "A group of people are gathered around a person laying on the ground", "label": 0}
+{"premise": "A family is hiking through a spring.", "hypothesis": "A family is hiking through a spring", "label": 0}
+{"premise": "A person approaches a escalator while holding a bag.", "hypothesis": "A person approaches a escalator while holding a bag.", "label": 0}
+{"premise": "A baby in a green shirt is holding onto a shoulder.", "hypothesis": "a baby", "label": 0}

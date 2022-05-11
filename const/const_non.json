@@ -1,0 +1,10 @@
+{"premise": "a skateboarder ollies.", "hypothesis": "A skateboarder.", "label": 1}
+{"premise": "There are two women in blue suits and black hills sitting on a curb outside of a building the two women look like they are waiting for a ride or are on break also the suits that they are wearing have little crests on them with wings so they might work for an airport.", "hypothesis": "they are waiting for a ride", "label": 1}
+{"premise": "A man sits on a rock fixing a bike, the bike flipped upside down.", "hypothesis": "A man sits on a rock fixing a bike.", "label": 1}
+{"premise": "A marching band is practicing in an outdoor field.", "hypothesis": "practicing in an outdoor field.", "label": 1}
+{"premise": "A construction worker working on a building.", "hypothesis": "A construction worker", "label": 1}
+{"premise": "a dog playing in the water", "hypothesis": "A dog playing.", "label": 1}
+{"premise": "A person on skies is up in the air over snow.", "hypothesis": "A person on skies", "label": 1}
+{"premise": "This active person is sky flying in the beautiful and clam blue sky.", "hypothesis": "Beautiful and clam blue sky", "label": 1}
+{"premise": "A dog leaps over a fence.", "hypothesis": "A dog", "label": 2}
+{"premise": "A wet black dog is carrying a green toy through the grass.", "hypothesis": "carrying a green toy through the grass.", "label": 2}
