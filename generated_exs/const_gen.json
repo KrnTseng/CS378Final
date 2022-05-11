@@ -1,0 +1,25 @@
+{"premise": "Whether or not the actors ran , the athletes performed .", "hypothesis": "The actors ran .", "label": 1}
+{"premise": "Unless the banker advised the managers , the professor introduced the athlete .", "hypothesis": "The professor introduced the athlete .", "label": 1}
+{"premise": "The lawyers hoped that the judges believed the lawyer .", "hypothesis": "The judges believed the lawyer .", "label": 1}
+{"premise": "The professors avoided the senators , or the artists contacted the senator .", "hypothesis": "The professors avoided the senators .", "label": 1}
+{"premise": "Probably the tourist thanked the students .", "hypothesis": "The tourist thanked the students .", "label": 1}
+{"premise": "In case the tourist mentioned the students , the professor contacted the managers .", "hypothesis": "The tourist mentioned the students .", "label": 1}
+{"premise": "If the lawyers ran , the bankers believed the doctor .", "hypothesis": "The bankers believed the doctor .", "label": 1}
+{"premise": "The students said that the students advised the actor .", "hypothesis": "The students advised the actor .", "label": 1}
+{"premise": "The senators performed , or the banker contacted the athlete .", "hypothesis": "The banker contacted the athlete .", "label": 1}
+{"premise": "Maybe the managers mentioned the managers .", "hypothesis": "The managers mentioned the managers .", "label": 1}
+{"premise": "In case the artists introduced the tourist , the banker thanked the professor .", "hypothesis": "The artists introduced the tourist .", "label": 1}
+{"premise": "Unless the managers introduced the artists , the presidents arrived .", "hypothesis": "The presidents arrived .", "label": 1}
+{"premise": "The actors thought that the lawyer arrived .", "hypothesis": "The lawyer arrived .", "label": 1}
+{"premise": "The artist thanked the doctor , or the author helped the senator .", "hypothesis": "The artist thanked the doctor .", "label": 1}
+{"premise": "Hopefully the banker slept .", "hypothesis": "The banker slept .", "label": 1}
+{"premise": "In case the judge supported the students , the lawyers saw the artists .", "hypothesis": "The judge supported the students .", "label": 1}
+{"premise": "Unless the professors believed the athlete , the professor introduced the professors .", "hypothesis": "The professor introduced the professors .", "label": 1}
+{"premise": "The secretaries claimed that the lawyers performed .", "hypothesis": "The lawyers performed .", "label": 1}
+{"premise": "The senators performed , or the doctors admired the doctor .", "hypothesis": "The doctors admired the doctor .", "label": 1}
+{"premise": "Hopefully the athlete saw the manager .", "hypothesis": "The athlete saw the manager .", "label": 1}
+{"premise": "In case the athlete danced , the senator advised the professor .", "hypothesis": "The athlete danced .", "label": 1}
+{"premise": "If the managers mentioned the secretaries , the senators saw the lawyers .", "hypothesis": "The senators saw the lawyers .", "label": 1}
+{"premise": "The athlete hoped that the actors encouraged the doctor .", "hypothesis": "The actors encouraged the doctor .", "label": 1}
+{"premise": "The managers encouraged the lawyers , or the president supported the actor .", "hypothesis": "The president supported the actor .", "label": 1}
+{"premise": "Supposedly the professor believed the lawyer .", "hypothesis": "The professor believed the lawyer .", "label": 1}

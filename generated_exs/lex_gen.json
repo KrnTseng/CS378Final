@@ -1,0 +1,25 @@
+{"premise": "The authors mentioned the lawyers .", "hypothesis": "The lawyers mentioned the authors .", "label": 2}
+{"premise": "The students believed the actor in front of the judges .", "hypothesis": "The judges believed the students .", "label": 1}
+{"premise": "The artist avoided the secretaries who believed the artists .", "hypothesis": "The secretaries avoided the artist .", "label": 1}
+{"premise": "The judge was stopped by the students .", "hypothesis": "The judge stopped the students .", "label": 2}
+{"premise": "The professor and the students encouraged the secretary .", "hypothesis": "The professor encouraged the students .", "label": 1}
+{"premise": "The judges stopped the actor .", "hypothesis": "The actor stopped the judges .", "label": 2}
+{"premise": "The senator behind the scientists introduced the actor .", "hypothesis": "The actor introduced the scientists .", "label": 2}
+{"premise": "The authors who supported the artist helped the lawyer .", "hypothesis": "The lawyer helped the authors .", "label": 1}
+{"premise": "The student was introduced by the tourist .", "hypothesis": "The student introduced the tourist .", "label": 2}
+{"premise": "The lawyers and the senator called the artists .", "hypothesis": "The senator called the lawyers .", "label": 2}
+{"premise": "The doctor recognized the athlete .", "hypothesis": "The athlete recognized the doctor .", "label": 1}
+{"premise": "The tourist by the students thanked the managers .", "hypothesis": "The managers thanked the students .", "label": 1}
+{"premise": "The manager that saw the athletes mentioned the students .", "hypothesis": "The students mentioned the athletes .", "label": 1}
+{"premise": "The senators were recommended by the actors .", "hypothesis": "The senators recommended the actors .", "label": 1}
+{"premise": "The doctors and the judges supported the senators .", "hypothesis": "The doctors supported the judges .", "label": 1}
+{"premise": "The secretaries encouraged the athletes .", "hypothesis": "The athletes encouraged the secretaries .", "label": 1}
+{"premise": "The banker near the tourists introduced the author .", "hypothesis": "The author introduced the banker .", "label": 1}
+{"premise": "The bankers helped the managers who admired the professor .", "hypothesis": "The professor helped the bankers .", "label": 1}
+{"premise": "The banker was believed by the secretaries .", "hypothesis": "The banker believed the secretaries .", "label": 1}
+{"premise": "The judges contacted the lawyer and the scientists .", "hypothesis": "The scientists contacted the lawyer .", "label": 1}
+{"premise": "The authors contacted the doctor .", "hypothesis": "The doctor contacted the authors .", "label": 1}
+{"premise": "The actor next to the doctor saw the tourists .", "hypothesis": "The doctor saw the actor .", "label": 1}
+{"premise": "The senators helped the professors that introduced the athlete .", "hypothesis": "The professors helped the senators .", "label": 1}
+{"premise": "The actor was introduced by the professors .", "hypothesis": "The actor introduced the professors .", "label": 1}
+{"premise": "The actors and the banker helped the athletes .", "hypothesis": "The banker helped the actors .", "label": 1}

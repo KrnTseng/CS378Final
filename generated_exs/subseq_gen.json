@@ -1,0 +1,25 @@
+{"premise": "The doctor heard the president avoided the tourist .", "hypothesis": "The doctor heard the president .", "label": 1}
+{"premise": "The senators in front of the actors performed .", "hypothesis": "The actors performed .", "label": 2}
+{"premise": "The judges by the artists saw the athletes .", "hypothesis": "The artists saw the athletes .", "label": 1}
+{"premise": "The secretary who recommended the lawyer shouted .", "hypothesis": "The lawyer shouted .", "label": 1}
+{"premise": "Although the authors paid the artist stopped the students .", "hypothesis": "The authors paid the artist .", "label": 1}
+{"premise": "The author believed the lawyer danced .", "hypothesis": "The author believed the lawyer .", "label": 1}
+{"premise": "The secretaries next to the scientists called the professor .", "hypothesis": "The scientists called the professor .", "label": 2}
+{"premise": "The scientist next to the senator avoided the scientists .", "hypothesis": "The senator avoided the scientists .", "label": 1}
+{"premise": "The lawyer who thanked the manager ran .", "hypothesis": "The manager ran .", "label": 2}
+{"premise": "When the tourist studied the athletes admired the athlete .", "hypothesis": "The tourist studied the athletes .", "label": 1}
+{"premise": "The senator heard the professor supported the artist .", "hypothesis": "The senator heard the professor .", "label": 1}
+{"premise": "The judges next to the professor saw the authors .", "hypothesis": "The professor saw the authors .", "label": 1}
+{"premise": "The secretaries next to the secretary avoided the bankers .", "hypothesis": "The secretary avoided the bankers .", "label": 1}
+{"premise": "The athlete that stopped the actors recommended the president .", "hypothesis": "The actors recommended the president .", "label": 2}
+{"premise": "Since the manager stopped the president contacted the doctor .", "hypothesis": "The manager stopped the president .", "label": 1}
+{"premise": "The president knew the scientist waited .", "hypothesis": "The president knew the scientist .", "label": 1}
+{"premise": "The manager in front of the professor believed the bankers .", "hypothesis": "The professor believed the bankers .", "label": 1}
+{"premise": "The tourists in front of the doctor saw the manager .", "hypothesis": "The doctor saw the manager .", "label": 1}
+{"premise": "The artists who introduced the scientists contacted the actors .", "hypothesis": "The scientists contacted the actors .", "label": 2}
+{"premise": "When the author hid the secretary saw the authors .", "hypothesis": "The author hid the secretary .", "label": 1}
+{"premise": "The secretary knew the tourist shouted .", "hypothesis": "The secretary knew the tourist .", "label": 1}
+{"premise": "The author next to the athlete contacted the judge .", "hypothesis": "The athlete contacted the judge .", "label": 2}
+{"premise": "The professors by the judges helped the tourists .", "hypothesis": "The judges helped the tourists .", "label": 2}
+{"premise": "The presidents that admired the banker danced .", "hypothesis": "The banker danced .", "label": 2}
+{"premise": "After the tourist moved the bankers stopped the professor .", "hypothesis": "The tourist moved the bankers .", "label": 2}

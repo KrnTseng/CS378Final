@@ -1,0 +1,25 @@
+{"premise": "After the managers resigned , the students saw the artist .", "hypothesis": "The managers resigned .", "label": 0}
+{"premise": "Whether or not the secretary recommended the doctors , the manager encouraged the student .", "hypothesis": "The manager encouraged the student .", "label": 0}
+{"premise": "The doctor remembered that the artist mentioned the student .", "hypothesis": "The artist mentioned the student .", "label": 0}
+{"premise": "The students recognized the senators , and the managers supported the actors .", "hypothesis": "The managers supported the actors .", "label": 0}
+{"premise": "Certainly the doctor helped the managers .", "hypothesis": "The doctor helped the managers .", "label": 0}
+{"premise": "Although the lawyer ran , the actor arrived .", "hypothesis": "The lawyer ran .", "label": 0}
+{"premise": "While the lawyer thanked the secretary , the managers encouraged the athlete .", "hypothesis": "The managers encouraged the athlete .", "label": 0}
+{"premise": "The judge learned that the professors contacted the professors .", "hypothesis": "The professors contacted the professors .", "label": 0}
+{"premise": "The manager resigned , and the bankers supported the president .", "hypothesis": "The bankers supported the president .", "label": 0}
+{"premise": "Of course the author thanked the scientists .", "hypothesis": "The author thanked the scientists .", "label": 0}
+{"premise": "After the scientists introduced the presidents , the secretary called the presidents .", "hypothesis": "The scientists introduced the presidents .", "label": 0}
+{"premise": "In case the senators supported the senator , the artist waited .", "hypothesis": "The artist waited .", "label": 0}
+{"premise": "The manager knew that the managers advised the doctors .", "hypothesis": "The managers advised the doctors .", "label": 0}
+{"premise": "The judge resigned , and the president advised the authors .", "hypothesis": "The president advised the authors .", "label": 0}
+{"premise": "Clearly the artists recognized the doctors .", "hypothesis": "The artists recognized the doctors .", "label": 0}
+{"premise": "Although the scientists called the bankers , the doctors slept .", "hypothesis": "The scientists called the bankers .", "label": 0}
+{"premise": "Although the judge slept , the actor contacted the artists .", "hypothesis": "The actor contacted the artists .", "label": 0}
+{"premise": "The lawyers learned that the president encouraged the doctor .", "hypothesis": "The president encouraged the doctor .", "label": 0}
+{"premise": "The actors believed the scientist , and the athletes resigned .", "hypothesis": "The actors believed the scientist .", "label": 0}
+{"premise": "Without a doubt the secretaries avoided the actors .", "hypothesis": "The secretaries avoided the actors .", "label": 0}
+{"premise": "Though the actor danced , the manager mentioned the manager .", "hypothesis": "The actor danced .", "label": 0}
+{"premise": "Though the actor supported the bankers , the judge avoided the manager .", "hypothesis": "The judge avoided the manager .", "label": 0}
+{"premise": "The actors forgot that the author encouraged the managers .", "hypothesis": "The author encouraged the managers .", "label": 0}
+{"premise": "The doctors stopped the secretary , and the doctors recognized the scientist .", "hypothesis": "The doctors recognized the scientist .", "label": 0}
+{"premise": "Certainly the secretaries admired the managers .", "hypothesis": "The secretaries admired the managers .", "label": 0}
